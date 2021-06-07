@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using PathCreation;
+using PathCreation; //Path Creator Ref
 
 public class PlayerMove : MonoBehaviour
 {
@@ -9,6 +9,7 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] EndOfPathInstruction endOfPath;
     [SerializeField] float speed = 3f; //camera movement speed
     [SerializeField] bool isMoving = true;
+    [SerializeField] ShootOutEntry[] shootOutEntries;
 
     [Header("Debug Options")]
     [SerializeField] float previewDistance = 0f; //Debugging var
@@ -19,7 +20,10 @@ public class PlayerMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        foreach (var entry in shootOutEntries) //initialize shoot out points
+        {
+            entry.shootOutPoint.Initialize(this);
+        }
     }
 
     // Update is called once per frame
@@ -27,7 +31,7 @@ public class PlayerMove : MonoBehaviour
     {
         if (path != null && isMoving)
         {
-            //Camera follows path
+            //Camera follows path on start
             distanceTravelled += speed * Time.deltaTime;
             transform.position = path.path.GetPointAtDistance(distanceTravelled, endOfPath);
             transform.rotation = path.path.GetRotationAtDistance(distanceTravelled, endOfPath);
@@ -37,9 +41,22 @@ public class PlayerMove : MonoBehaviour
     private void OnValidate() //Unity's Debug method
     {
         if (enableDebug)
-        {
+        {   
+            //Change preview distance to move along the path without starting game
             transform.position = path.path.GetPointAtDistance(previewDistance, endOfPath);
             transform.rotation = path.path.GetRotationAtDistance(previewDistance, endOfPath);
         }
     }
+
+    public void SetPlayerMovement(bool isEnable)
+    {
+        isMoving = isEnable;
+    }
+}
+
+[System.Serializable]
+public class ShootOutEntry
+{
+    public ShootOutPoint shootOutPoint;
+    public float distance;
 }
