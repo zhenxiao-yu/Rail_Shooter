@@ -5,6 +5,7 @@ using UnityEngine;
 public class ShootOutPoint : MonoBehaviour
 {
     public bool AreaCleared {get; private set;}
+    private bool activePoint;
     private PlayerMove playerMove;
 
     public void Initialize(PlayerMove value)
@@ -21,9 +22,17 @@ public class ShootOutPoint : MonoBehaviour
             playerMove.SetPlayerMovement (false);
         }
 
-        if(Input.GetKeyDown(KeyCode.Return))
+        if(Input.GetKeyDown(KeyCode.Return) && activePoint)
         {
             playerMove.SetPlayerMovement (true);
+            AreaCleared = true;
+            activePoint = false;
         }      
+    }
+
+    public void StartShootOut()
+    {
+        activePoint = true;
+        playerMove.SetPlayerMovement (false);
     }
 }

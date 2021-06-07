@@ -35,6 +35,19 @@ public class PlayerMove : MonoBehaviour
             distanceTravelled += speed * Time.deltaTime;
             transform.position = path.path.GetPointAtDistance(distanceTravelled, endOfPath);
             transform.rotation = path.path.GetRotationAtDistance(distanceTravelled, endOfPath);
+
+            //Stop at shoot out points
+            for (int i = 0; i < shootOutEntries.Length; i++)
+            {
+                if ((path.path.GetPointAtDistance(shootOutEntries[i].distance) - transform.position).sqrMagnitude < 0.01f)
+                {
+                    if (shootOutEntries[i].shootOutPoint.AreaCleared)
+                        return;
+
+                    if (isMoving)
+                        shootOutEntries[i].shootOutPoint.StartShootOut();
+                }
+            }
         }
     }
 
@@ -50,7 +63,7 @@ public class PlayerMove : MonoBehaviour
 
     public void SetPlayerMovement(bool isEnable)
     {
-        isMoving = isEnable;
+        isMoving = isEnable; //check box to enable preview distance
     }
 }
 
