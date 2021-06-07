@@ -5,11 +5,14 @@ using PathCreation;
 
 public class PlayerMove : MonoBehaviour
 {
-    [SerializeField] PathCreator path;
+    [SerializeField] PathCreator path; //preset path ref
     [SerializeField] EndOfPathInstruction endOfPath;
     [SerializeField] float speed = 3f; //camera movement speed
+    [SerializeField] bool isMoving = true;
 
-
+    [Header("Debug Options")]
+    [SerializeField] float previewDistance = 0f; //Debugging var
+    [SerializeField] bool enableDebug;
 
     private float distanceTravelled;
 
@@ -22,8 +25,21 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        distanceTravelled += speed * Time.deltaTime;
-        transform.position = path.path.GetPointAtDistance(distanceTravelled, endOfPath);
-        transform.rotation = path.path.GetRotationAtDistance(distanceTravelled, endOfPath);
+        if (path != null && isMoving)
+        {
+            //Camera follows path
+            distanceTravelled += speed * Time.deltaTime;
+            transform.position = path.path.GetPointAtDistance(distanceTravelled, endOfPath);
+            transform.rotation = path.path.GetRotationAtDistance(distanceTravelled, endOfPath);
+        }
+    }
+
+    private void OnValidate() //Unity's Debug method
+    {
+        if (enableDebug)
+        {
+            transform.position = path.path.GetPointAtDistance(previewDistance, endOfPath);
+            transform.rotation = path.path.GetRotationAtDistance(previewDistance, endOfPath);
+        }
     }
 }
