@@ -924,7 +924,7 @@ GameObject:
   - component: {fileID: 587120814}
   - component: {fileID: 587120813}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Camera Path Movement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -945,19 +945,19 @@ MonoBehaviour:
   editorData:
     _bezierPath:
       points:
-      - {x: -3.8053176, y: 0.34101474, z: -9.660156}
-      - {x: -5.3556314, y: 0.3319875, z: -9.347656}
-      - {x: -5.023804, y: 0.33154902, z: -7.0031915}
-      - {x: -4.8041825, y: 0.339316, z: -6.351074}
-      - {x: -4.5960693, y: 0.346676, z: -5.733129}
-      - {x: -1.4357442, y: 0.35296765, z: -6.545476}
-      - {x: -0.8495846, y: 0.33750427, z: -6.234375}
-      - {x: -0.12830973, y: 0.31847644, z: -5.8515625}
-      - {x: -0.08807081, y: 0.34625366, z: -0.48539102}
-      - {x: -0.09013653, y: 0.3436513, z: 0.08886719}
-      - {x: -0.09393406, y: 0.3388672, z: 1.1445618}
-      - {x: -0.30695772, y: 0.106346965, z: 1.7661722}
-      - {x: 0.87668324, y: 0.26086986, z: 2.6875}
+      - {x: 0.9541235, y: 0.30402374, z: 2.6332579}
+      - {x: -0.20603275, y: 0.2900839, z: 0.9406519}
+      - {x: -0.14450932, y: 0.32917595, z: 0.083275795}
+      - {x: -0.22888803, y: 0.31312346, z: -0.66922355}
+      - {x: -0.31991327, y: 0.29580653, z: -1.4809974}
+      - {x: -0.38476616, y: 0.3152773, z: -5.756085}
+      - {x: -1.0278597, y: 0.31212282, z: -6.198683}
+      - {x: -1.76365, y: 0.30851364, z: -6.7050776}
+      - {x: -4.341899, y: 0.30078128, z: -6.077692}
+      - {x: -4.7887964, y: 0.30891752, z: -6.5426497}
+      - {x: -5.420388, y: 0.32041633, z: -7.199766}
+      - {x: -5.423806, y: 0.30224252, z: -9.612719}
+      - {x: -3.9121952, y: 0.30378258, z: -10.049723}
       isClosed: 0
       space: 0
       controlMode: 0
@@ -972,7 +972,7 @@ MonoBehaviour:
       - 0
       - 0
       - 0
-      globalNormalsAngle: 0
+      globalNormalsAngle: 90
       flipNormals: 0
     vertexPathUpToDate: 0
     vertexPathMaxAngleError: 0.3
@@ -991,7 +991,7 @@ MonoBehaviour:
     showPathOptions: 1
     showVertexPathDisplayOptions: 0
     showVertexPathOptions: 1
-    showNormals: 0
+    showNormals: 1
     showNormalsHelpInfo: 0
     tabIndex: 0
   initialized: 1
@@ -1277,6 +1277,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1349,6 +1350,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 818366b3d17e0074298630f48cbde2be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  path: {fileID: 587120813}
+  endOfPath: 2
+  speed: 3
 --- !u!1 &1056553300
 GameObject:
   m_ObjectHideFlags: 0
