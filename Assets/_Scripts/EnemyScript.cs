@@ -67,16 +67,17 @@ public class EnemyScript : MonoBehaviour, IHitable
         }
 
 
-        if (agent.remainingDistance> 0.01f)
+        if (agent.remainingDistance > 0.01f)
         {
-            movementLocal = transform.InverseTransformDirection(agent.velocity).normalized;
+            movementLocal = Vector3.Lerp(movementLocal, transform.InverseTransformDirection(agent.velocity).normalized, 2f * Time.deltaTime);
 
             //Make NashMesh follow Animator so enemy doesn't go through walls
             agent.nextPosition = transform.position;
         } 
         else
         {
-            movementLocal = Vector3.zero;
+            //Fix enemy animation abrupt stop problem
+            movementLocal = Vector3.Lerp(movementLocal, Vector3.zero, 2f * Time.deltaTime);
         }
 
         anim.SetFloat("X Speed", movementLocal.x);
@@ -92,12 +93,20 @@ public class EnemyScript : MonoBehaviour, IHitable
         currentHealth--;
         Debug.Log("Enemy Shot!");
 
+        //After health reaches 0
         if (currentHealth <= 0)
         {
             isDead = true;
             agent.enabled = false;
             shootOutPoint.EnemyKilled();
-            Destroy(gameObject);
+            //change state of animatior 
+            anim.SetTrigger("Dead");
+            anim.SetBool("Is Dead", true);
+            Destroy(gameObject, 3f); //give time to play death animation
+        }
+        else
+        {
+            anim.SetTrigger("Shot");
         }
     }
 }
