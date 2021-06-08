@@ -66,17 +66,22 @@ public class EnemyScript : MonoBehaviour, IHitable
             return;
         }
 
-        /* If the enemy transform position distance with the agent 
-        position is stillgreater than the threshold, we want to drive 
-        the animation using the movementlocal variable*/
 
-        if ((agent.nextPosition - transform.position).sqrMagnitude > 0.01f)
+        if (agent.remainingDistance> 0.01f)
         {
-            movementLocal = transform.InverseTransformDirection(agent.nextPosition - transform.position);
+            movementLocal = transform.InverseTransformDirection(agent.velocity).normalized;
+
+            //Make NashMesh follow Animator so enemy doesn't go through walls
+            agent.nextPosition = transform.position;
+        } 
+        else
+        {
+            movementLocal = Vector3.zero;
         }
 
         anim.SetFloat("X Speed", movementLocal.x);
         anim.SetFloat("Z Speed", movementLocal.z);
+        
     }
 
     public void Hit(RaycastHit hit)
