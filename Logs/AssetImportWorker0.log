@@ -101,3 +101,930 @@ Received Import Request.
 Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc9717a0a7816bc317310260f7e13b3') in 0.002628 seconds
   Import took 0.005743 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 438.695560 seconds.
+  path: Assets/_Game/Robot Kyle
+  artifactKey: Guid(54035fb4c12682b40b9db10f5f603ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Robot Kyle using Guid(54035fb4c12682b40b9db10f5f603ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735bb0fb2b290ce693767c74b3a30b86') in 0.002401 seconds
+  Import took 0.005782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.658237 seconds.
+  path: Assets/_Game/Robot Kyle/Materials
+  artifactKey: Guid(b0451a93ab014c84c8596411dc8a103b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Robot Kyle/Materials using Guid(b0451a93ab014c84c8596411dc8a103b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a58910d26a62768e763ded7605a9973') in 0.002347 seconds
+  Import took 0.005626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.756345 seconds.
+  path: Assets/_Game/Robot Kyle/Model/Robot Kyle.fbx
+  artifactKey: Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Robot Kyle/Model/Robot Kyle.fbx using Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850fd414a7d73bf628dbc79cf444a6db') in 0.082026 seconds
+  Import took 0.085556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 368.120110 seconds.
+  path: Assets/_Game/Robot Kyle/Textures/Robot_Color.tga
+  artifactKey: Guid(0a0e8af2869fa45f78e25460db578482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Robot Kyle/Textures/Robot_Color.tga using Guid(0a0e8af2869fa45f78e25460db578482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee0c0dd6219900fff9be20fe4971d54') in 0.014117 seconds
+  Import took 0.017455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/_Game/Robot Kyle/Textures/Robot_Normal.tga
+  artifactKey: Guid(94c473c9137744d7eabd829f1150da8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Robot Kyle/Textures/Robot_Normal.tga using Guid(94c473c9137744d7eabd829f1150da8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5fec5404af5dfb60ebadcafe3ad348') in 0.009532 seconds
+  Import took 0.012458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.498648 seconds.
+  path: Assets/_Game/Robot Kyle/Model/Robot Kyle.fbx
+  artifactKey: Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Robot Kyle/Model/Robot Kyle.fbx using Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec90ee213b79a5fc3a4083b437e1678d') in 0.034004 seconds
+  Import took 0.037409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 997.744454 seconds.
+  path: Assets/_Game/New Folder
+  artifactKey: Guid(2cc65d56ac227884280e2a1aa5486c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/New Folder using Guid(2cc65d56ac227884280e2a1aa5486c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fde698308f854502e5507c1aabb2ad') in 0.002306 seconds
+  Import took 0.005654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.417175 seconds.
+  path: Assets/Assets.index
+  artifactKey: Guid(e3f647d6f4a9a914aa7f10aa43b06f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets.index using Guid(e3f647d6f4a9a914aa7f10aa43b06f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d143c3823526b8c8e544f6f69be657') in 0.020927 seconds
+  Import took 0.024162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.276801 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.001932 seconds
+  Import took 0.004939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.339932 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(0bf53557f4d689b45adc85e0e5cdd085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(0bf53557f4d689b45adc85e0e5cdd085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec8efd9d415182ed083aa10cbf2f622') in 0.002313 seconds
+  Import took 0.005374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.665730 seconds.
+  path: Assets/Animations/Robot Kyle@Run Forward Rifle.fbx
+  artifactKey: Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Run Forward Rifle.fbx using Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c372e75d48d387e097b1256c7689690c') in 0.005472 seconds
+  Import took 0.008849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002942 seconds.
+  path: Assets/Animations/Robot Kyle@Run Forward Rifle.fbx
+  artifactKey: Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Run Forward Rifle.fbx using Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c372e75d48d387e097b1256c7689690c') in 0.004872 seconds
+  Import took 0.008004 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005241 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.813 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.7 MB.
+System memory in use after: 172.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2601.
+Total: 2.527400 ms (FindLiveObjects: 0.201900 ms CreateObjectMapping: 0.046700 ms MarkObjects: 2.194200 ms  DeleteObjects: 0.083400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1388.138249 seconds.
+  path: Assets/Animations/Robot Kyle@Left Cover Sneak W_ Rifle.fbx
+  artifactKey: Guid(42b43348e49578b4da5ab7d8a578d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Left Cover Sneak W_ Rifle.fbx using Guid(42b43348e49578b4da5ab7d8a578d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2316bffc1bb31cb8f2ba7b537acdf31') in 0.015373 seconds
+  Import took 0.018593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.976224 seconds.
+  path: Assets/Animations/Robot Kyle@Hit Reaction.fbx
+  artifactKey: Guid(659264ee945978f4aa97ebd338259478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Hit Reaction.fbx using Guid(659264ee945978f4aa97ebd338259478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398b93bb501388713860d738736cd9d9') in 0.005006 seconds
+  Import took 0.008238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003980 seconds.
+  path: Assets/Animations/Robot Kyle@Hit Reaction.fbx
+  artifactKey: Guid(659264ee945978f4aa97ebd338259478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Hit Reaction.fbx using Guid(659264ee945978f4aa97ebd338259478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398b93bb501388713860d738736cd9d9') in 0.004219 seconds
+  Import took 0.007252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.978850 seconds.
+  path: Assets/Animations/Robot Kyle@Death From Front Headshot.fbx
+  artifactKey: Guid(85aca2eb0aa810d48b309250cefbe745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Death From Front Headshot.fbx using Guid(85aca2eb0aa810d48b309250cefbe745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ea327bdad8b2813c8f4101b353b213') in 0.005198 seconds
+  Import took 0.008510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005985 seconds.
+  path: Assets/Animations/Robot Kyle@Death From Front Headshot.fbx
+  artifactKey: Guid(85aca2eb0aa810d48b309250cefbe745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Death From Front Headshot.fbx using Guid(85aca2eb0aa810d48b309250cefbe745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ea327bdad8b2813c8f4101b353b213') in 0.005043 seconds
+  Import took 0.008315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.169673 seconds.
+  path: Assets/Animations/Robot Kyle@Run Forward Rifle.fbx
+  artifactKey: Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Run Forward Rifle.fbx using Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882e48c555fa572e4fcc4cc60f668879') in 0.004180 seconds
+  Import took 0.007070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017290 seconds.
+  path: Assets/Animations/Robot Kyle@Run Forward Rifle.fbx
+  artifactKey: Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Run Forward Rifle.fbx using Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882e48c555fa572e4fcc4cc60f668879') in 0.004427 seconds
+  Import took 0.007654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015152 seconds.
+  path: Assets/Animations/Robot Kyle@Death From Front Headshot.fbx
+  artifactKey: Guid(85aca2eb0aa810d48b309250cefbe745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Death From Front Headshot.fbx using Guid(85aca2eb0aa810d48b309250cefbe745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3c1c1db1770768bc9b805caf01c41c') in 0.004445 seconds
+  Import took 0.007534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Animations/Robot Kyle@Hit Reaction.fbx
+  artifactKey: Guid(659264ee945978f4aa97ebd338259478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Hit Reaction.fbx using Guid(659264ee945978f4aa97ebd338259478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8d28a7f6f92a8ccb31a206b967bfc3') in 0.004222 seconds
+  Import took 0.007179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Animations/Robot Kyle@Left Cover Sneak W_ Rifle.fbx
+  artifactKey: Guid(42b43348e49578b4da5ab7d8a578d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Left Cover Sneak W_ Rifle.fbx using Guid(42b43348e49578b4da5ab7d8a578d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f386ee26d0df0c30e33c4664174dbdb') in 0.004214 seconds
+  Import took 0.007190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Animations/Robot Kyle@Hit Reaction.fbx
+  artifactKey: Guid(659264ee945978f4aa97ebd338259478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Hit Reaction.fbx using Guid(659264ee945978f4aa97ebd338259478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8d28a7f6f92a8ccb31a206b967bfc3') in 0.004123 seconds
+  Import took 0.006915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007108 seconds.
+  path: Assets/Animations/Robot Kyle@Left Cover Sneak W_ Rifle.fbx
+  artifactKey: Guid(42b43348e49578b4da5ab7d8a578d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Left Cover Sneak W_ Rifle.fbx using Guid(42b43348e49578b4da5ab7d8a578d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f386ee26d0df0c30e33c4664174dbdb') in 0.004276 seconds
+  Import took 0.007753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.298392 seconds.
+  path: Assets/Animations/Robot Kyle@Death From Front Headshot.fbx
+  artifactKey: Guid(85aca2eb0aa810d48b309250cefbe745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Death From Front Headshot.fbx using Guid(85aca2eb0aa810d48b309250cefbe745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb58a3da95f05f440c938c545c8e61c') in 0.004493 seconds
+  Import took 0.007425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006108 seconds.
+  path: Assets/Animations/Robot Kyle@Death From Front Headshot.fbx
+  artifactKey: Guid(85aca2eb0aa810d48b309250cefbe745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Death From Front Headshot.fbx using Guid(85aca2eb0aa810d48b309250cefbe745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb58a3da95f05f440c938c545c8e61c') in 0.004520 seconds
+  Import took 0.007735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.352129 seconds.
+  path: Packages/com.unity.probuilder/Content/Shader/NormalPreview.shader
+  artifactKey: Guid(a07688e921e974338945464731e069ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Shader/NormalPreview.shader using Guid(a07688e921e974338945464731e069ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0d8bb27c7e56f742b21566c7166362') in 0.004003 seconds
+  Import took 0.006915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Packages/com.unity.ugui/Editor/UI/InterceptedEventsPreview.cs
+  artifactKey: Guid(127023922adddf744b59fa7b0b0c3030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui/Editor/UI/InterceptedEventsPreview.cs using Guid(127023922adddf744b59fa7b0b0c3030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bd03aa877537f332adc31ea86a4322') in 0.005265 seconds
+  Import took 0.008069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Packages/com.unity.ugui/Tests/Editor/EventSystem/InterceptedEventsPreviewTests.cs
+  artifactKey: Guid(2aff4fada0516c64a8537a20bfe1b699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui/Tests/Editor/EventSystem/InterceptedEventsPreviewTests.cs using Guid(2aff4fada0516c64a8537a20bfe1b699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05dc5ed2926f81d4d408561fef761924') in 0.002320 seconds
+  Import took 0.005357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Packages/com.unity.timeline/Runtime/Utilities/IPropertyPreview.cs
+  artifactKey: Guid(b5f0881228e5827438f74e9b7b33c2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Runtime/Utilities/IPropertyPreview.cs using Guid(b5f0881228e5827438f74e9b7b33c2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a641610a33f6ca8277bbcc38038642a5') in 0.002229 seconds
+  Import took 0.005012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Packages/com.unity.timeline/Runtime/Animation/AnimationPreviewUpdateCallback.cs
+  artifactKey: Guid(755e3e942f7784d458bddba421c0bb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Runtime/Animation/AnimationPreviewUpdateCallback.cs using Guid(755e3e942f7784d458bddba421c0bb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8136d04e9b6c0d06459dfca400a23f') in 0.002228 seconds
+  Import took 0.004864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Packages/com.unity.ugui/Editor/UI/LayoutPropertiesPreview.cs
+  artifactKey: Guid(794f3951c48395848920fdb593a2ae38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui/Editor/UI/LayoutPropertiesPreview.cs using Guid(794f3951c48395848920fdb593a2ae38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2fd7233240792f50f6126f35c9eeeaa') in 0.002303 seconds
+  Import took 0.004901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Packages/com.unity.timeline/Editor/Window/TimelineWindow_PreviewPlayMode.cs
+  artifactKey: Guid(5c9c9f62af2efb948a1974650039e2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/Window/TimelineWindow_PreviewPlayMode.cs using Guid(5c9c9f62af2efb948a1974650039e2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c772423f15573390438eed847cb999') in 0.002318 seconds
+  Import took 0.005399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Packages/com.unity.timeline/Runtime/Utilities/AnimationPreviewUtilities.cs
+  artifactKey: Guid(01da6c5b7c781174d818662ce6f39b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Runtime/Utilities/AnimationPreviewUtilities.cs using Guid(01da6c5b7c781174d818662ce6f39b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152864529a442b78639801459a83ec31') in 0.002339 seconds
+  Import took 0.004986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Packages/com.unity.probuilder/Content/Shader/SmoothingPreview.shader
+  artifactKey: Guid(e8c3a1662a88140ae84d69a3a4cfdbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Shader/SmoothingPreview.shader using Guid(e8c3a1662a88140ae84d69a3a4cfdbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467ce2d3cb2121387c360b3dba880587') in 0.002413 seconds
+  Import took 0.005232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.096463 seconds.
+  path: Assets/Animations/Robot Kyle@Run Forward Rifle.fbx
+  artifactKey: Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Run Forward Rifle.fbx using Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a3ed13ee8860323c3152bcfa882c87') in 0.004316 seconds
+  Import took 0.007258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016264 seconds.
+  path: Assets/Animations/Robot Kyle@Run Forward Rifle.fbx
+  artifactKey: Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Run Forward Rifle.fbx using Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a3ed13ee8860323c3152bcfa882c87') in 0.004384 seconds
+  Import took 0.007708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004779 seconds.
+  path: Assets/Animations/Robot Kyle@Death From Front Headshot.fbx
+  artifactKey: Guid(85aca2eb0aa810d48b309250cefbe745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Death From Front Headshot.fbx using Guid(85aca2eb0aa810d48b309250cefbe745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7add0e4068389164505e498d87446b73') in 0.004437 seconds
+  Import took 0.007267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Animations/Robot Kyle@Hit Reaction.fbx
+  artifactKey: Guid(659264ee945978f4aa97ebd338259478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Hit Reaction.fbx using Guid(659264ee945978f4aa97ebd338259478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2b558dedea7c4f3bdbf4fee194f056') in 0.004427 seconds
+  Import took 0.007346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Animations/Robot Kyle@Left Cover Sneak W_ Rifle.fbx
+  artifactKey: Guid(42b43348e49578b4da5ab7d8a578d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Left Cover Sneak W_ Rifle.fbx using Guid(42b43348e49578b4da5ab7d8a578d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2273978efec751d30428b788fd2f8a') in 0.004211 seconds
+  Import took 0.007325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003849 seconds.
+  path: Assets/Animations/Robot Kyle@Hit Reaction.fbx
+  artifactKey: Guid(659264ee945978f4aa97ebd338259478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Hit Reaction.fbx using Guid(659264ee945978f4aa97ebd338259478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2b558dedea7c4f3bdbf4fee194f056') in 0.004184 seconds
+  Import took 0.007014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.006765 seconds.
+  path: Assets/Animations/Robot Kyle@Run Forward Rifle.fbx
+  artifactKey: Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Run Forward Rifle.fbx using Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b736a5d783d26380b8c63bb58df7f226') in 0.004308 seconds
+  Import took 0.007368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009144 seconds.
+  path: Assets/Animations/Robot Kyle@Run Forward Rifle.fbx
+  artifactKey: Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Run Forward Rifle.fbx using Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b736a5d783d26380b8c63bb58df7f226') in 0.004314 seconds
+  Import took 0.007304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.739781 seconds.
+  path: Assets/Animations/Robot Kyle@Run Forward Rifle.fbx
+  artifactKey: Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Run Forward Rifle.fbx using Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2842510b2fc1e5d50a79f432ecafdf6f') in 0.004289 seconds
+  Import took 0.007340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009792 seconds.
+  path: Assets/Animations/Robot Kyle@Run Forward Rifle.fbx
+  artifactKey: Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Run Forward Rifle.fbx using Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2842510b2fc1e5d50a79f432ecafdf6f') in 0.004413 seconds
+  Import took 0.007466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.257649 seconds.
+  path: Assets/Animations/Robot Kyle@Run Forward Rifle.fbx
+  artifactKey: Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Run Forward Rifle.fbx using Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266516356236b2179c2a07031c498cff') in 0.004356 seconds
+  Import took 0.007443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009716 seconds.
+  path: Assets/Animations/Robot Kyle@Run Forward Rifle.fbx
+  artifactKey: Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Run Forward Rifle.fbx using Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266516356236b2179c2a07031c498cff') in 0.004340 seconds
+  Import took 0.007404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.620239 seconds.
+  path: Assets/Animations/Robot Kyle@Left Cover Sneak W_ Rifle.fbx
+  artifactKey: Guid(42b43348e49578b4da5ab7d8a578d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Left Cover Sneak W_ Rifle.fbx using Guid(42b43348e49578b4da5ab7d8a578d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00072f6077c0955189bb800024f27f42') in 0.004302 seconds
+  Import took 0.007386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009074 seconds.
+  path: Assets/Animations/Robot Kyle@Left Cover Sneak W_ Rifle.fbx
+  artifactKey: Guid(42b43348e49578b4da5ab7d8a578d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Left Cover Sneak W_ Rifle.fbx using Guid(42b43348e49578b4da5ab7d8a578d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00072f6077c0955189bb800024f27f42') in 0.004259 seconds
+  Import took 0.007274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.699124 seconds.
+  path: Assets/Animations/Robot Kyle@Hit Reaction.fbx
+  artifactKey: Guid(659264ee945978f4aa97ebd338259478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Hit Reaction.fbx using Guid(659264ee945978f4aa97ebd338259478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9703b70f6d4368df1ac5d3baebc9f935') in 0.004375 seconds
+  Import took 0.007513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008597 seconds.
+  path: Assets/Animations/Robot Kyle@Hit Reaction.fbx
+  artifactKey: Guid(659264ee945978f4aa97ebd338259478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Hit Reaction.fbx using Guid(659264ee945978f4aa97ebd338259478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9703b70f6d4368df1ac5d3baebc9f935') in 0.004632 seconds
+  Import took 0.007570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.991342 seconds.
+  path: Assets/Animations/Robot Kyle@Death From Front Headshot.fbx
+  artifactKey: Guid(85aca2eb0aa810d48b309250cefbe745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Death From Front Headshot.fbx using Guid(85aca2eb0aa810d48b309250cefbe745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee1979369106e6451523999e89fc723') in 0.004476 seconds
+  Import took 0.007621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009047 seconds.
+  path: Assets/Animations/Robot Kyle@Death From Front Headshot.fbx
+  artifactKey: Guid(85aca2eb0aa810d48b309250cefbe745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Death From Front Headshot.fbx using Guid(85aca2eb0aa810d48b309250cefbe745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee1979369106e6451523999e89fc723') in 0.004443 seconds
+  Import took 0.007376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.547724 seconds.
+  path: Assets/Animations/Robot Kyle@Death From Front Headshot.fbx
+  artifactKey: Guid(85aca2eb0aa810d48b309250cefbe745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Death From Front Headshot.fbx using Guid(85aca2eb0aa810d48b309250cefbe745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1306c84bbf1cfbb43f3704b7fa7645') in 0.004675 seconds
+  Import took 0.007719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008752 seconds.
+  path: Assets/Animations/Robot Kyle@Death From Front Headshot.fbx
+  artifactKey: Guid(85aca2eb0aa810d48b309250cefbe745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Death From Front Headshot.fbx using Guid(85aca2eb0aa810d48b309250cefbe745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1306c84bbf1cfbb43f3704b7fa7645') in 0.004420 seconds
+  Import took 0.007408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.041841 seconds.
+  path: Assets/Animations/Robot Kyle@Rifle Aiming Idle.fbx
+  artifactKey: Guid(798970a52bcbdf4408336a2fc91bf442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Rifle Aiming Idle.fbx using Guid(798970a52bcbdf4408336a2fc91bf442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58c2197cbd8597e2791059f4cb96974') in 0.005027 seconds
+  Import took 0.008257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.667899 seconds.
+  path: Assets/Animations/Robot Kyle@Rifle Aiming Idle.fbx
+  artifactKey: Guid(798970a52bcbdf4408336a2fc91bf442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Rifle Aiming Idle.fbx using Guid(798970a52bcbdf4408336a2fc91bf442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d1522a0eac649a6bcd75fc7149f05a') in 0.004339 seconds
+  Import took 0.007576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.638516 seconds.
+  path: Assets/Animations/Robot Kyle@Rifle Aiming Idle.fbx
+  artifactKey: Guid(798970a52bcbdf4408336a2fc91bf442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Rifle Aiming Idle.fbx using Guid(798970a52bcbdf4408336a2fc91bf442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f51af97236b06e8b8f717c12efe7a1') in 0.004733 seconds
+  Import took 0.007970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010350 seconds.
+  path: Assets/Animations/Robot Kyle@Rifle Aiming Idle.fbx
+  artifactKey: Guid(798970a52bcbdf4408336a2fc91bf442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Rifle Aiming Idle.fbx using Guid(798970a52bcbdf4408336a2fc91bf442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f51af97236b06e8b8f717c12efe7a1') in 0.004560 seconds
+  Import took 0.007824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.273429 seconds.
+  path: Assets/Animations/Robot Kyle@Hit Reaction.fbx
+  artifactKey: Guid(659264ee945978f4aa97ebd338259478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Hit Reaction.fbx using Guid(659264ee945978f4aa97ebd338259478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a18e5a7a2682a587307871c7ca68f1') in 0.004511 seconds
+  Import took 0.007721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.845368 seconds.
+  path: Assets/Animations/Robot Kyle@Run Forward Rifle.fbx
+  artifactKey: Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Run Forward Rifle.fbx using Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5331776da088151fa74ce86f7680e77') in 0.004550 seconds
+  Import took 0.007550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008972 seconds.
+  path: Assets/Animations/Robot Kyle@Run Forward Rifle.fbx
+  artifactKey: Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Run Forward Rifle.fbx using Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5331776da088151fa74ce86f7680e77') in 0.004409 seconds
+  Import took 0.007447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.438788 seconds.
+  path: Assets/Animations/Robot Kyle@Rifle Aiming Idle.fbx
+  artifactKey: Guid(798970a52bcbdf4408336a2fc91bf442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Rifle Aiming Idle.fbx using Guid(798970a52bcbdf4408336a2fc91bf442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c711f87aa9a5e2abe35c0863b0a60a') in 0.004380 seconds
+  Import took 0.007345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015519 seconds.
+  path: Assets/Animations/Robot Kyle@Rifle Aiming Idle.fbx
+  artifactKey: Guid(798970a52bcbdf4408336a2fc91bf442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Rifle Aiming Idle.fbx using Guid(798970a52bcbdf4408336a2fc91bf442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c711f87aa9a5e2abe35c0863b0a60a') in 0.004431 seconds
+  Import took 0.007674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.626066 seconds.
+  path: Assets/Animations/Robot Kyle@Left Cover Sneak W_ Rifle.fbx
+  artifactKey: Guid(42b43348e49578b4da5ab7d8a578d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Left Cover Sneak W_ Rifle.fbx using Guid(42b43348e49578b4da5ab7d8a578d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348e804d1bbda51af2fc21832c82b22b') in 0.004358 seconds
+  Import took 0.007259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015374 seconds.
+  path: Assets/Animations/Robot Kyle@Left Cover Sneak W_ Rifle.fbx
+  artifactKey: Guid(42b43348e49578b4da5ab7d8a578d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Left Cover Sneak W_ Rifle.fbx using Guid(42b43348e49578b4da5ab7d8a578d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348e804d1bbda51af2fc21832c82b22b') in 0.004238 seconds
+  Import took 0.007262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.958870 seconds.
+  path: Assets/Animations/Robot Kyle@Rifle Aiming Idle.fbx
+  artifactKey: Guid(798970a52bcbdf4408336a2fc91bf442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Rifle Aiming Idle.fbx using Guid(798970a52bcbdf4408336a2fc91bf442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d1bab445c0ec1436864b1bbf79e1a6') in 0.004243 seconds
+  Import took 0.007227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011285 seconds.
+  path: Assets/Animations/Robot Kyle@Rifle Aiming Idle.fbx
+  artifactKey: Guid(798970a52bcbdf4408336a2fc91bf442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Rifle Aiming Idle.fbx using Guid(798970a52bcbdf4408336a2fc91bf442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d1bab445c0ec1436864b1bbf79e1a6') in 0.004272 seconds
+  Import took 0.007262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.009781 seconds.
+  path: Assets/Animations/Robot Kyle@Run Forward Rifle.fbx
+  artifactKey: Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Run Forward Rifle.fbx using Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156ed46eab85753dd5ef6f90c1f4e478') in 0.004483 seconds
+  Import took 0.007496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011076 seconds.
+  path: Assets/Animations/Robot Kyle@Run Forward Rifle.fbx
+  artifactKey: Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Run Forward Rifle.fbx using Guid(263d6cff74cb32b499489f771c87f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156ed46eab85753dd5ef6f90c1f4e478') in 0.004287 seconds
+  Import took 0.007467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.359215 seconds.
+  path: Assets/Animations/Robot Kyle@Left Cover Sneak W_ Rifle.fbx
+  artifactKey: Guid(42b43348e49578b4da5ab7d8a578d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Left Cover Sneak W_ Rifle.fbx using Guid(42b43348e49578b4da5ab7d8a578d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a0236993ffd258a5c96384f1b45454') in 0.004217 seconds
+  Import took 0.007448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008831 seconds.
+  path: Assets/Animations/Robot Kyle@Left Cover Sneak W_ Rifle.fbx
+  artifactKey: Guid(42b43348e49578b4da5ab7d8a578d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Left Cover Sneak W_ Rifle.fbx using Guid(42b43348e49578b4da5ab7d8a578d702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a0236993ffd258a5c96384f1b45454') in 0.004269 seconds
+  Import took 0.007250 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003284 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.891 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.8 MB.
+System memory in use after: 172.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2604.
+Total: 2.653100 ms (FindLiveObjects: 0.217600 ms CreateObjectMapping: 0.051300 ms MarkObjects: 2.301500 ms  DeleteObjects: 0.081600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 988.118336 seconds.
+  path: Assets/_Prefabs/Enemy.prefab
+  artifactKey: Guid(a5450cc15dff46d4f944bf27506fde9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/Enemy.prefab using Guid(a5450cc15dff46d4f944bf27506fde9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6a93316771bd2aa5807d6024db6b8d') in 0.037326 seconds
+  Import took 0.040391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.553892 seconds.
+  path: Assets/_Prefabs/Enemy.prefab
+  artifactKey: Guid(a5450cc15dff46d4f944bf27506fde9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/Enemy.prefab using Guid(a5450cc15dff46d4f944bf27506fde9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df357bb0788a95938899311178e924d2') in 0.003555 seconds
+  Import took 0.006578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.225016 seconds.
+  path: Assets/_Prefabs/Enemy.prefab
+  artifactKey: Guid(a5450cc15dff46d4f944bf27506fde9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/Enemy.prefab using Guid(a5450cc15dff46d4f944bf27506fde9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5c579e9a5fc0e558d267918329c594') in 0.003249 seconds
+  Import took 0.006435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.408097 seconds.
+  path: Assets/_Prefabs/Enemy.prefab
+  artifactKey: Guid(a5450cc15dff46d4f944bf27506fde9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/Enemy.prefab using Guid(a5450cc15dff46d4f944bf27506fde9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dec464a058219db102d2d1182a40259') in 0.012920 seconds
+  Import took 0.016558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 239.565198 seconds.
+  path: Assets/Animations/Controller
+  artifactKey: Guid(1cef259036dda474a8fc6150650c2eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Controller using Guid(1cef259036dda474a8fc6150650c2eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d0e7c6dd254cd84ec7a2ad560a0448') in 0.002319 seconds
+  Import took 0.005285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.379676 seconds.
+  path: Assets/Animations/Controller/BaseEnemy.controller
+  artifactKey: Guid(48fdef7e25835014aa7575e917c9991e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Controller/BaseEnemy.controller using Guid(48fdef7e25835014aa7575e917c9991e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28888dfb300a6852787be626e889fbf') in 0.005104 seconds
+  Import took 0.008240 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003195 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.000 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.9 MB.
+System memory in use after: 173.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2608.
+Total: 2.835800 ms (FindLiveObjects: 0.223200 ms CreateObjectMapping: 0.050100 ms MarkObjects: 2.422700 ms  DeleteObjects: 0.138400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003094 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.880 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.9 MB.
+System memory in use after: 173.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2611.
+Total: 2.809000 ms (FindLiveObjects: 0.348300 ms CreateObjectMapping: 0.099700 ms MarkObjects: 2.249500 ms  DeleteObjects: 0.110100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5486.811405 seconds.
+  path: Assets/_Prefabs/Enemy.prefab
+  artifactKey: Guid(a5450cc15dff46d4f944bf27506fde9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/Enemy.prefab using Guid(a5450cc15dff46d4f944bf27506fde9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (BaseEnemy) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (BaseEnemy) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '24e6d85180c9e36b5a5015fb090eaf20') in 0.064977 seconds
+  Import took 0.070628 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003067 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.851 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.9 MB.
+System memory in use after: 172.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2615.
+Total: 2.318400 ms (FindLiveObjects: 0.210100 ms CreateObjectMapping: 0.047600 ms MarkObjects: 1.980700 ms  DeleteObjects: 0.079000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003102 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.847 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.0 MB.
+System memory in use after: 173.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2618.
+Total: 2.426600 ms (FindLiveObjects: 0.196100 ms CreateObjectMapping: 0.047100 ms MarkObjects: 2.099200 ms  DeleteObjects: 0.083400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003097 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.855 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.0 MB.
+System memory in use after: 173.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2621.
+Total: 2.596700 ms (FindLiveObjects: 0.198100 ms CreateObjectMapping: 0.047600 ms MarkObjects: 2.268000 ms  DeleteObjects: 0.081300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003070 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.850 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.0 MB.
+System memory in use after: 173.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2624.
+Total: 2.384700 ms (FindLiveObjects: 0.220200 ms CreateObjectMapping: 0.048800 ms MarkObjects: 2.021000 ms  DeleteObjects: 0.093700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002988 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.799 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.0 MB.
+System memory in use after: 173.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2627.
+Total: 2.162400 ms (FindLiveObjects: 0.193300 ms CreateObjectMapping: 0.042200 ms MarkObjects: 1.861700 ms  DeleteObjects: 0.064500 ms)
+

@@ -13,14 +13,23 @@ public class EnemyScript : MonoBehaviour, IHitable
     private bool isDead;
     private NavMeshAgent agent;
     private ShootOutPoint shootOutPoint;
+    private Animator anim; //Enemy Animator Ref
+    private Vector3 movementLocal;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        //Get Navigation Mesh Component 
         agent = GetComponent<NavMeshAgent>();
+        //get Player Ref
         player = Camera.main.transform;
+        //Get Animator Component
+        anim = GetComponentInChildren<Animator>(); 
+        //Dont't change enemy pos and rot until called
+        agent.updatePosition = false;
+        agent.updateRotation = false; 
 
-        agent.updateRotation = false; //Don't look at player until initialized
     }
 
     public void Init(ShootOutPoint point)
@@ -46,6 +55,28 @@ public class EnemyScript : MonoBehaviour, IHitable
 
             transform.rotation = Quaternion.LookRotation(direction);
         }
+
+        RunBlend();
+    }
+
+    void RunBlend()
+    {
+        if (anim == null || !anim.enabled)
+        {
+            return;
+        }
+
+        /* If the enemy transform position distance with the agent 
+        position is stillgreater than the threshold, we want to drive 
+        the animation using the movementlocal variable*/
+
+        if ((agent.nextPosition - transform.position).sqrMagnitude > 0.01f)
+        {
+            movementLocal = transform.InverseTransformDirection(agent.nextPosition - transform.position);
+        }
+
+        anim.SetFloat("X Speed", movementLocal.x);
+        anim.SetFloat("Z Speed", movementLocal.z);
     }
 
     public void Hit(RaycastHit hit)
