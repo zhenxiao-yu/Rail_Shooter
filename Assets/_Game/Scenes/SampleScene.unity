@@ -30276,5 +30276,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BombBarrel
       objectReference: {fileID: 0}
+    - target: {fileID: 8537607560662813474, guid: eac753c1f86555248a1192f65db97420,
+        type: 3}
+      propertyPath: prefabsToSpawn
+      value: 
+      objectReference: {fileID: 3182839817748938504, guid: ce7d39d5e79dae8489da7485a7838239,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eac753c1f86555248a1192f65db97420, type: 3}
