@@ -77,7 +77,7 @@ public class EnemyScript : MonoBehaviour, IHitable
         else
         {
             //Fix enemy animation abrupt stop problem
-            movementLocal = Vector3.Lerp(movementLocal, Vector3.zero, 2f * Time.deltaTime);
+            movementLocal = Vector3.Lerp(movementLocal, Vector3.zero, 1.3f * Time.deltaTime);
         }
 
         anim.SetFloat("X Speed", movementLocal.x);
