@@ -4,40 +4,28 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
+    [SerializeField] WeaponData defaultWeapon;
+
     private Camera cam; //Main Camera Ref
+    private WeaponData currentWeapon;
 
     void Start()
     {
         cam = GetComponent<Camera>(); //Get Camera Ref
+
+        SwitchWeapon();
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Shoot On Left Mouse Click
-        if (Input.GetMouseButtonDown(0)) 
-        {
-            RaycastHit hit;
-            Ray ray = cam.ScreenPointToRay(Input.mousePosition); //cast ray based on position of mouse
+        if (currentWeapon != null)
+            currentWeapon.WeaponUpdate();
+    }
 
-            if (Physics.Raycast(ray, out hit, 50f)) //50f = max distance
-            {
-                if (hit.collider != null)
-                {
-                    //Make hitables an array for objects with multiple on hit components
-                    IHitable[] hitables = hit.collider.GetComponents<IHitable>();
-                    //Check calidity of hitable objects and excute hit
-                    if(hitables != null && hitables.Length > 0)
-                    {
-                        foreach (var hitable in hitables)
-                        {
-                            hitable.Hit(hit);
-                        }
-                    }
-
-                    Debug.Log(hit.collider.gameObject.name); //check collision target name
-                }
-            }
-        }
+    public void SwitchWeapon(WeaponData weapon = null)
+    {
+        currentWeapon = weapon != null? weapon: defaultWeapon; //if no weapon, switch to default weapon
+        currentWeapon.SetupWeapon(cam, this);
     }
 }

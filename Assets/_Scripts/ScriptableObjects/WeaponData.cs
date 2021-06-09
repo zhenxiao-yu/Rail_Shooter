@@ -59,7 +59,11 @@ public class WeaponData : ScriptableObject
             currentAmmo = maxAmmo;
         }
 
-        if ()
+        if (!defaultWeapon && currentAmmo <= 0)
+        {
+            //if run out weapon, switch back to default weapon
+            player.SwitchWeapon();
+        }
     }
 
 
@@ -80,7 +84,7 @@ public class WeaponData : ScriptableObject
                 {
                     foreach (var hitable in hitables)
                     {
-                        hitable.Hit(hit);
+                        hitable.Hit(hit, damageValue);
                     }
                 }
 
