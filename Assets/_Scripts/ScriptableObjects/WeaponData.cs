@@ -11,8 +11,11 @@ public class WeaponData : ScriptableObject
     [SerializeField] int maxAmmo; //Ammo Capacity
     [SerializeField] int damageValue; //Damage Value
     [SerializeField] bool defaultWeapon; //Is Default Weapon?
+    [SerializeField] GameObject muzzleFX; //muzzle effect
+    [SerializeField] float fxScale = 0.1f; //size of effect
 
     private Camera cam; //Camera Ref
+    private ParticleSystem cachedFX;
     private PlayerScript player;
     private int currentAmmo;
     private float nextFireTime;
@@ -23,6 +26,14 @@ public class WeaponData : ScriptableObject
         this.player = player;
         nextFireTime = 0f; 
         currentAmmo = maxAmmo;
+
+        if(muzzleFX != null)
+        {
+            GameObject temp = Instantiate(muzzleFX);
+            temp.transform.localScale = Vector3.one * fxScale;
+            player.SetMuzzleFx(temp.transform);
+            cachedFX = temp.GetComponent<ParticleSystem>();
+        }
     }
 
     public void WeaponUpdate()
@@ -72,6 +83,15 @@ public class WeaponData : ScriptableObject
     {
         RaycastHit hit;
         Ray ray = cam.ScreenPointToRay(Input.mousePosition); //cast ray based on position of mouse
+
+        if (cachedFX != null)
+        {
+            Vector3 muzzlePos = cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0.2f)); //Set Muzzle position
+            cachedFX.transform.position = muzzlePos;
+            cachedFX.transform.rotation = Quaternion.LookRotation(ray.direction);
+            cachedFX.Play();
+        }
+        
 
         if (Physics.Raycast(ray, out hit, 50f)) //50f = max distance
         {

@@ -8,6 +8,7 @@ public class PlayerScript : MonoBehaviour
 
     private Camera cam; //Main Camera Ref
     private WeaponData currentWeapon;
+    private Transform childFx;
 
     void Start()
     {
@@ -27,5 +28,14 @@ public class PlayerScript : MonoBehaviour
     {
         currentWeapon = weapon != null? weapon: defaultWeapon; //if no weapon, switch to default weapon
         currentWeapon.SetupWeapon(cam, this);
+    }
+
+    public void SetMuzzleFx(Transform fx)
+    {
+        if (childFx != null)
+            Destroy(childFx.gameObject);
+
+        fx.SetParent(transform);
+        childFx = fx;
     }
 }
