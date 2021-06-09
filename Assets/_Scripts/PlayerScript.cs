@@ -24,11 +24,15 @@ public class PlayerScript : MonoBehaviour
             {
                 if (hit.collider != null)
                 {
-                    IHitable hitable = hit.collider.GetComponent<IHitable>();
-
-                    if(hitable != null)
+                    //Make hitables an array for objects with multiple on hit components
+                    IHitable[] hitables = hit.collider.GetComponents<IHitable>();
+                    //Check calidity of hitable objects and excute hit
+                    if(hitables != null && hitables.Length > 0)
                     {
-                        hitable.Hit(hit);
+                        foreach (var hitable in hitables)
+                        {
+                            hitable.Hit(hit);
+                        }
                     }
 
                     Debug.Log(hit.collider.gameObject.name); //check collision target name
