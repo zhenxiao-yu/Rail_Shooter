@@ -8,7 +8,7 @@ public class HitEffects : MonoBehaviour, IHitable
 
     private ParticleSystem effectsCache;
 
-    public void Hit(RaycastHit hit)
+    public void Hit(RaycastHit hit, int damage = 1)
     {
         if (effectsCache != null)
         {

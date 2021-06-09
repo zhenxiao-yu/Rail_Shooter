@@ -61,7 +61,7 @@ public class EnemyScript : MonoBehaviour, IHitable
 
     void RunBlend()
     {
-        if (anim == null || !anim.enabled)
+        if (anim == null || !anim.enabled || !agent.enabled)
         {
             return;
         }
@@ -85,12 +85,12 @@ public class EnemyScript : MonoBehaviour, IHitable
         
     }
 
-    public void Hit(RaycastHit hit)
+    public void Hit(RaycastHit hit, int damage = 1)
     {   
         if (isDead)
             return;
             
-        currentHealth--;
+        currentHealth -= damage; //decrease health by damage value
         Debug.Log("Enemy Shot!");
 
         //After health reaches 0
