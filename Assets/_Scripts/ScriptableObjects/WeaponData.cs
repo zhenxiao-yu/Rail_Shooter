@@ -104,13 +104,24 @@ public class WeaponData : ScriptableObject
                 {
                     foreach (var hitable in hitables)
                     {
-                        hitable.Hit(hit, damageValue);
+                        hitable.Hit(hit, damageValue); //apply damage
+
+                        if (hitable is EnemyScript)
+                        {
+                            GameManager.Instance.ShotHit(true);
+                            return;
+                        }
+                        else
+                        {
+                            GameManager.Instance.ShotHit(false);
+                        }
                     }
                 }
-
                 Debug.Log(hit.collider.gameObject.name); //check collision target name
             }
+            return;
         }
+        GameManager.Instance.ShotHit(false);
     }
 }
 
