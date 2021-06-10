@@ -12,6 +12,7 @@ public class PlayerScript : MonoBehaviour
 
     void Start()
     {
+        this.DelayedAction(delegate { Debug.Log("Delayed Action Ran After 5"); }, 5f );
         cam = GetComponent<Camera>(); //Get Camera Ref
 
         SwitchWeapon();
