@@ -6,7 +6,10 @@ using UnityEngine.AI;
 public class EnemyScript : MonoBehaviour, IHitable
 {
     [SerializeField] int maxHealth;//Enemy Health
-    [SerializeField] Transform targetPos; //Target Position 
+    [SerializeField] Transform targetPos; //Target Position
+    [Header("Shooting Properties")] 
+    [SerializeField] IntervalRange interval = new IntervalRange(1.5f, 2.7f); //Default Interval
+    [SerializeField] float shootAccuracy = 0.5f; //Enemy Shoot Accuracy
 
     private int currentHealth;
     private Transform player;
@@ -41,6 +44,7 @@ public class EnemyScript : MonoBehaviour, IHitable
         if (agent != null)
         {
             agent.SetDestination(targetPos.position);
+            StartCoroutine(Shoot());
         }
     }
 
@@ -109,4 +113,34 @@ public class EnemyScript : MonoBehaviour, IHitable
             anim.SetTrigger("Shot");
         }
     }
+
+    IEnumerator Shoot()
+    {
+        yield return new WaitForSeconds(0.2f);
+        yield return new WaitUntil(()=> {return agent.remainingDistance < 0.02f; });
+
+        while (!isDead)
+        {
+            if(Random.Range(0f, 1f) < shootAccuracy)
+            {
+                GameManager.Instance.PlayerHit(1f);
+                Debug.Log("Player Hit");
+            }
+
+            yield return new WaitForSeconds(interval.GetValue);
+        }
+    }
+}
+
+[System.Serializable]
+public struct IntervalRange
+{
+    [SerializeField] float min, max;
+    public IntervalRange(float min, float max) //Contsructor Method
+    {
+        this.min = min;
+        this.max = max;
+    }
+
+    public float GetValue { get => Random.Range(min, max); }
 }
