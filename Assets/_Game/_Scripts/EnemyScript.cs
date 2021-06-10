@@ -7,9 +7,12 @@ public class EnemyScript : MonoBehaviour, IHitable
 {
     [SerializeField] int maxHealth;//Enemy Health
     [SerializeField] Transform targetPos; //Target Position
+
     [Header("Shooting Properties")] 
     [SerializeField] IntervalRange interval = new IntervalRange(1.5f, 2.7f); //Default Interval
     [SerializeField] float shootAccuracy = 0.5f; //Enemy Shoot Accuracy
+    [SerializeField] ParticleSystem shotFx; //Shot Effect Ref
+
 
     private int currentHealth;
     private Transform player;
@@ -118,15 +121,22 @@ public class EnemyScript : MonoBehaviour, IHitable
     {
         yield return new WaitForSeconds(0.2f);
         yield return new WaitUntil(()=> {return agent.remainingDistance < 0.02f; });
-
+        //Shoot player while not dead
         while (!isDead)
         {
+            //Adjust shot effect direction based on Hit Condition 
+            shotFx.transform.rotation = Quaternion.LookRotation(transform.forward + Random.insideUnitSphere);
+
             if(Random.Range(0f, 1f) < shootAccuracy)
             {
+                shotFx.transform.rotation = Quaternion.LookRotation(player.position - shotFx.transform.position);
+
                 GameManager.Instance.PlayerHit(1f);
                 Debug.Log("Player Hit");
             }
 
+            shotFx.Play();
+            
             yield return new WaitForSeconds(interval.GetValue);
         }
     }
