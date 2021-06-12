@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] GameState state;
     [SerializeField] PlayerMove playerMove;
+    [SerializeField] PlayerScript playerScript;
     [SerializeField] int playerHealth = 10;
 
 
@@ -66,6 +67,7 @@ public class GameManager : MonoBehaviour
     {
         //take damage when the player is hit
         currentHealth -= damage;
+        playerScript.ShakeCamera(0.5f, 0.2f, 5f);
     }
 }
 
