@@ -1,20 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Kino;
 
 public class PlayerScript : MonoBehaviour
 {
     [SerializeField] WeaponData defaultWeapon;
+    [SerializeField] AnimationCurve glitchCurve;
 
     private Camera cam; //Main Camera Ref
     private WeaponData currentWeapon;
-    private Transform childFx;
+    private Transform childFx; 
+    private DigitalGlitch glitchFx; //glitch effects
 
     void Start()
     {
-        this.DelayedAction(delegate { Debug.Log("Delayed Action Ran After 5"); }, 5f );
         cam = GetComponent<Camera>(); //Get Camera Ref
-
+        glitchFx = GetComponent<DigitalGlitch>();
         SwitchWeapon();
     }
 
@@ -58,6 +60,8 @@ public class PlayerScript : MonoBehaviour
             }
 
             transform.position = Vector3.Lerp(transform.position, newPos, freq * Time.deltaTime);
+
+            glitchFx.intensity = glitchCurve.Evaluate(duration / timer);
 
             duration -= Time.deltaTime;
             yield return null;

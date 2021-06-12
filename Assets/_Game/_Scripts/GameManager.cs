@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour
     {
         //used To Calculate The Accuracy of Shot
         if(hit)
-            enemyHit++;
+        enemyHit++;
         shotsFired++;
     }
 
