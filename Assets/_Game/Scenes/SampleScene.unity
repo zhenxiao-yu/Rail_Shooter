@@ -13941,6 +13941,66 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultWeapon: {fileID: 11400000, guid: 66edfcfb8c8a3414fb292d2eb829c0a9, type: 2}
+  glitchCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2.4601295
+      outSlope: 2.4601295
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.21385577
+    - serializedVersion: 3
+      time: 0.18143795
+      value: 0.36621764
+      inSlope: 1.5854839
+      outSlope: 1.5854839
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.30264425
+      outWeight: 0.4590465
+    - serializedVersion: 3
+      time: 0.30069694
+      value: 0.5357442
+      inSlope: 1.1258183
+      outSlope: 1.1258183
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.19255437
+      outWeight: 0.33803648
+    - serializedVersion: 3
+      time: 0.50411093
+      value: 0.64167464
+      inSlope: -0.0224586
+      outSlope: -0.0224586
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.3169036
+    - serializedVersion: 3
+      time: 0.7048279
+      value: 0.53380746
+      inSlope: -1.0861781
+      outSlope: -1.0861781
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3092501
+      outWeight: 0.18123487
+    - serializedVersion: 3
+      time: 0.99871826
+      value: -0.002357483
+      inSlope: -2.5454814
+      outSlope: -2.5454814
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.14350791
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &963194231
 MonoBehaviour:
   m_ObjectHideFlags: 0
