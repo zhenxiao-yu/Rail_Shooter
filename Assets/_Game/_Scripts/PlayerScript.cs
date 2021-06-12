@@ -67,6 +67,7 @@ public class PlayerScript : MonoBehaviour
             yield return null;
         }
 
+        glitchFx.intensity = 0f; //clear glitch effect
         transform.position = initPos;
     }
 
