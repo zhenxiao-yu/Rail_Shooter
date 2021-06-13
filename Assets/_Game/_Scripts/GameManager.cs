@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameState state;
     [SerializeField] PlayerMove playerMove;
     [SerializeField] PlayerScript playerScript;
-    [SerializeField] int playerHealth = 10;
+    [SerializeField] int playerHealth = 10; //default health value
 
     [SerializeField] UIManager uiManager = new UIManager();
 
@@ -36,6 +36,12 @@ public class GameManager : MonoBehaviour
     {
         currentHealth = playerHealth;
         uiManager.Init(currentHealth); //initialize health value
+    }
+
+    void OnDisable()
+    {
+        //unbind events
+        uiManager.RemoveEvent();
     }
 
     public void SwitchState(GameState newState)

@@ -19,3 +19,5 @@ MonoBehaviour:
   defaultWeapon: 0
   muzzleFX: {fileID: 1743301284569550, guid: 8e154b8e7a2e08e44a9f2f5702cc5601, type: 3}
   fxScale: 0.04
+  weaponIcon: {fileID: -644297780690176812, guid: 868b9b5f99c516e45ad369e9addc55b5,
+    type: 3}

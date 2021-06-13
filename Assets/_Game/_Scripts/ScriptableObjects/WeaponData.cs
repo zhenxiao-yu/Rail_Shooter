@@ -5,7 +5,9 @@ using UnityEngine;
 //Build Table For Custom Weapons
 [CreateAssetMenu(fileName = "CustomWeaponData", menuName = "Weapon Data")]
 public class WeaponData : ScriptableObject
-{
+{   
+    //Bullet Amount Change Event
+    public System.Action<int> OnWeaponFired = delegate {};
     [SerializeField] FireTypes type; //Fire Mode
     [SerializeField] float rate = 0.15f; //Fire Rate
     [SerializeField] int maxAmmo; //Ammo Capacity
@@ -13,6 +15,7 @@ public class WeaponData : ScriptableObject
     [SerializeField] bool defaultWeapon; //Is Default Weapon?
     [SerializeField] GameObject muzzleFX; //muzzle effect
     [SerializeField] float fxScale = 0.1f; //size of effect
+    [SerializeField] Sprite weaponIcon;
 
     private Camera cam; //Camera Ref
     private ParticleSystem cachedFX;
@@ -20,12 +23,15 @@ public class WeaponData : ScriptableObject
     private int currentAmmo;
     private float nextFireTime;
 
+    public Sprite GetIcon { get => weaponIcon; } // change Weapon Icon
+
     public void SetupWeapon(Camera cam, PlayerScript player)
     {
         this.cam = cam;
         this.player = player;
         nextFireTime = 0f; 
         currentAmmo = maxAmmo;
+        OnWeaponFired(currentAmmo);
 
         if(muzzleFX != null)
         {
@@ -45,10 +51,11 @@ public class WeaponData : ScriptableObject
             {
                 Fire();
                 currentAmmo--;
+                OnWeaponFired(currentAmmo);
             }
             else
             {
-                Debug.Log("Ammo Low");
+                //ammo runs out
             }
         }
         else
@@ -56,18 +63,20 @@ public class WeaponData : ScriptableObject
             if (Input.GetMouseButton(0) && Time.time > nextFireTime && currentAmmo > 0) //left hold
             {
                 Fire();
+                OnWeaponFired(currentAmmo);
                 currentAmmo--;
                 nextFireTime = Time.time + rate;
             }
             else if (currentAmmo <= 0)
             {
-                Debug.Log("Ammo Low");
+                //ammo runs out
             } 
         }
 
         if (defaultWeapon && Input.GetMouseButtonDown(1)) //Reload Using Right Click For Custom Weapon
         {
             currentAmmo = maxAmmo;
+            OnWeaponFired(currentAmmo);
         }
 
         if (!defaultWeapon && currentAmmo <= 0)

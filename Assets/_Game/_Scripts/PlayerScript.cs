@@ -5,6 +5,9 @@ using Kino;
 
 public class PlayerScript : MonoBehaviour
 {
+    //Weapon Change Event
+    public static System.Action<WeaponData> OnWeaponChanged  = delegate {};
+
     [SerializeField] WeaponData defaultWeapon;
     [SerializeField] AnimationCurve glitchCurve;
 
@@ -17,7 +20,7 @@ public class PlayerScript : MonoBehaviour
     {
         cam = GetComponent<Camera>(); //Get Camera Ref
         glitchFx = GetComponent<DigitalGlitch>();
-        SwitchWeapon();
+        this.DelayedAction(delegate {SwitchWeapon(); }, 0.1f);
     }
 
     // Update is called once per frame
@@ -30,6 +33,7 @@ public class PlayerScript : MonoBehaviour
     public void SwitchWeapon(WeaponData weapon = null)
     {
         currentWeapon = weapon != null? weapon: defaultWeapon; //if no weapon, switch to default weapon
+        OnWeaponChanged(currentWeapon); //broardcast event on weapon change
         currentWeapon.SetupWeapon(cam, this);
     }
 
