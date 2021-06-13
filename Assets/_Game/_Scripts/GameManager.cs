@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] PlayerScript playerScript;
     [SerializeField] int playerHealth = 10;
 
+    [SerializeField] UIManager uiManager;
+
     //Game Stats
     private float currentHealth;
     private int enemyHit, shotsFired, enemyKilled, totalEnemy, hostageKilled;

@@ -15,11 +15,11 @@ C:/Users/YZX06/Documents/GitHub/Rail_Shooter
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60673
+61005
 Successfully changed project path to: C:/Users/YZX06/Documents/GitHub/Rail_Shooter
 C:/Users/YZX06/Documents/GitHub/Rail_Shooter
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 39.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 42.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,123 +35,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002242 seconds.
+Registered in 0.002106 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 38.26 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 41.19 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.777 seconds
+- Completed reload, in  0.969 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003031 seconds.
+Registered in 0.003282 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 39.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 41.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.950 seconds
+- Completed reload, in  0.983 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2154 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2155 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 177.8 MB.
 System memory in use after: 177.9 MB.
 
-Unloading 90 unused Assets to reduce memory usage. Loaded Objects now: 2601.
-Total: 2.483200 ms (FindLiveObjects: 0.231600 ms CreateObjectMapping: 0.061600 ms MarkObjects: 2.004900 ms  DeleteObjects: 0.184300 ms)
+Unloading 90 unused Assets to reduce memory usage. Loaded Objects now: 2602.
+Total: 2.522700 ms (FindLiveObjects: 0.226500 ms CreateObjectMapping: 0.051200 ms MarkObjects: 2.046200 ms  DeleteObjects: 0.197600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/_Game/Fonts/ChakraPetch-Bold.ttf
-  artifactKey: Guid(b2c824df55086ff4bb3a64f3c0fe9b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/Fonts/ChakraPetch-Bold.ttf using Guid(b2c824df55086ff4bb3a64f3c0fe9b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63994bde32f737a58ce07c1048aff945') in 0.087481 seconds
-  Import took 0.090617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/_Game/Fonts/ChakraPetch-SemiBold.ttf
-  artifactKey: Guid(8af3c30613ff6b749ae69007c49e1b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/Fonts/ChakraPetch-SemiBold.ttf using Guid(8af3c30613ff6b749ae69007c49e1b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0391d91ab13e49b153df17308ac512ec') in 0.009252 seconds
-  Import took 0.011886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/_Game/Fonts/ChakraPetch-Regular.ttf
-  artifactKey: Guid(fce8899e0ac28c940876e81273c08826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/Fonts/ChakraPetch-Regular.ttf using Guid(fce8899e0ac28c940876e81273c08826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97481d76edf7f8405bf5d5c05742ee7') in 0.008804 seconds
-  Import took 0.012404 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.275407 seconds.
-  path: Assets/_Game/Fonts/ChakraPetch-Regular SDF.asset
-  artifactKey: Guid(57fda2c6768e0324ba18c3b527b63b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/Fonts/ChakraPetch-Regular SDF.asset using Guid(57fda2c6768e0324ba18c3b527b63b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6f4c02c70f3e4bcfe5654d2933f65d') in 0.031756 seconds
-  Import took 0.035088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 73.147144 seconds.
-  path: Assets/_Game/Fonts/ChakraPetch-Bold SDF.asset
-  artifactKey: Guid(29e8b1e2b6b505f439caea8794cc76f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/Fonts/ChakraPetch-Bold SDF.asset using Guid(29e8b1e2b6b505f439caea8794cc76f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20eea5161ea272c1c85758633ad55b42') in 0.009481 seconds
-  Import took 0.013251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/_Game/Fonts/ChakraPetch-Regular SDF.asset
-  artifactKey: Guid(57fda2c6768e0324ba18c3b527b63b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/Fonts/ChakraPetch-Regular SDF.asset using Guid(57fda2c6768e0324ba18c3b527b63b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d2c2692a32c9f882f89253c7c97576') in 0.020853 seconds
-  Import took 0.023980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 74.665554 seconds.
   path: Assets/_Game/_Scripts/UIManager.cs
   artifactKey: Guid(ed26fb886647f844da2b84d9ee6d3ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/_Scripts/UIManager.cs using Guid(ed26fb886647f844da2b84d9ee6d3ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9b0af4bafc5ddc000bf2d6e21db1cf') in 0.007500 seconds
-  Import took 0.010755 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003229 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.920 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.0 MB.
-System memory in use after: 174.1 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2650.
-Total: 2.747200 ms (FindLiveObjects: 0.250500 ms CreateObjectMapping: 0.049500 ms MarkObjects: 2.356700 ms  DeleteObjects: 0.089000 ms)
+Start importing Assets/_Game/_Scripts/UIManager.cs using Guid(ed26fb886647f844da2b84d9ee6d3ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d1ed28788eafeca225157476329ba9') in 0.021157 seconds
+  Import took 0.024262 seconds .
 
