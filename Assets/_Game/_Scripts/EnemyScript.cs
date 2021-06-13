@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class EnemyScript : MonoBehaviour, IHitable
 {
     [SerializeField] int maxHealth;//Enemy Health
-    [SerializeField] Transform targetPos; //Target Position
+    [SerializeField] protected Transform targetPos; //Target Position
 
     [Header("Shooting Properties")] 
     [SerializeField] IntervalRange interval = new IntervalRange(1.5f, 2.7f); //Default Interval
@@ -17,7 +17,7 @@ public class EnemyScript : MonoBehaviour, IHitable
     private int currentHealth;
     private Transform player;
     private bool isDead;
-    private NavMeshAgent agent;
+    protected NavMeshAgent agent;
     private ShootOutPoint shootOutPoint;
     private Animator anim; //Enemy Animator Ref
     private Vector3 movementLocal;
@@ -46,9 +46,14 @@ public class EnemyScript : MonoBehaviour, IHitable
         //Give Enemy a Destination
         if (agent != null)
         {
-            agent.SetDestination(targetPos.position);
-            StartCoroutine(Shoot());
+            BehaviourSetup();    
         }
+    }
+
+    protected virtual void BehaviourSetup()
+    {
+        agent.SetDestination(targetPos.position);
+        StartCoroutine(Shoot());
     }
 
     // Update is called once per frame
@@ -105,7 +110,7 @@ public class EnemyScript : MonoBehaviour, IHitable
         {
             isDead = true;
             agent.enabled = false;
-            shootOutPoint.EnemyKilled();
+            DeadBehaviour();
             //change state of animatior 
             anim.SetTrigger("Dead");
             anim.SetBool("Is Dead", true);
@@ -115,6 +120,11 @@ public class EnemyScript : MonoBehaviour, IHitable
         {
             anim.SetTrigger("Shot");
         }
+    }
+
+    protected virtual void DeadBehaviour()
+    {
+        shootOutPoint.EnemyKilled();
     }
 
     IEnumerator Shoot()
