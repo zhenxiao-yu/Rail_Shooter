@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class UIManager
 {
    [SerializeField] Slider healthBar;
+   [SerializeField] TextMeshProUGUI timerText;
 
    [Header("Weapon HUD")]
    [SerializeField] Image weaponIcon;
@@ -19,11 +20,19 @@ public class UIManager
        healthBar.maxValue = maxHealth;
        healthBar.value = maxHealth;
        PlayerScript.OnWeaponChanged += UpdateWeapon;
+       TimerObject.OnTimerChanged += UpdateTimer;
    }
 
-   public void RemoveEvent()
+    private void UpdateTimer(int currentTimer)
     {
-        PlayerScript.OnWeaponChanged -= UpdateWeapon;    
+        timerText.SetText(currentTimer.ToString("00"));
+    }
+
+    public void RemoveEvent()
+    {
+        PlayerScript.OnWeaponChanged -= UpdateWeapon;  
+        TimerObject.OnTimerChanged -= UpdateTimer;  
+        currentWeapon.OnWeaponFired -= UpdateAmmo;
     }
 
     public void UpdateWeapon(WeaponData obj)
