@@ -12,5 +12,6 @@ public class HostageScript : EnemyScript
     protected override void DeadBehaviour()
     {
         GameManager.Instance.PlayerHit(1);
+        GameManager.Instance.HostageKilled();
     }
 }

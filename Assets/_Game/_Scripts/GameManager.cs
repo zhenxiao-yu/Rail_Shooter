@@ -11,9 +11,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] PlayerScript playerScript;
     [SerializeField] int playerHealth = 10;
 
-
+    //Game Stats
     private float currentHealth;
-    private int enemyHit, shotsFired;
+    private int enemyHit, shotsFired, enemyKilled, totalEnemy, hostageKilled;
 
     private TimerObject timerObject = new TimerObject();
 
@@ -80,6 +80,21 @@ public class GameManager : MonoBehaviour
     public void StopTimer()
     {
         timerObject.StopTimer(this);
+    }
+
+        public void RegisterEnemy()
+    {
+        totalEnemy++;
+    }
+
+    public void HostageKilled()
+    {
+        hostageKilled++;
+    }
+
+    public void EnemyKilled()
+    {
+        enemyKilled++;
     }
 }
 

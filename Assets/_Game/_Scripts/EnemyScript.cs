@@ -54,6 +54,7 @@ public class EnemyScript : MonoBehaviour, IHitable
     {
         agent.SetDestination(targetPos.position);
         StartCoroutine(Shoot());
+        GameManager.Instance.RegisterEnemy();
     }
 
     // Update is called once per frame
@@ -125,6 +126,7 @@ public class EnemyScript : MonoBehaviour, IHitable
     protected virtual void DeadBehaviour()
     {
         shootOutPoint.EnemyKilled();
+        GameManager.Instance.EnemyKilled();
     }
 
     IEnumerator Shoot()
