@@ -8,7 +8,7 @@ public class ShootOutPoint : MonoBehaviour
     public bool AreaCleared {get; private set;}
     private bool activePoint;
     private PlayerMove playerMove;
-    private int enemyKilled; //player kill count 
+    private int enemyKilled, totalEnemy; //player kill count 
 
     public void Initialize(PlayerMove value)
     {
@@ -43,6 +43,8 @@ public class ShootOutPoint : MonoBehaviour
     {
         foreach(var enemy in enemyList)
         {
+            //only count enemy, not the hostage
+            totalEnemy = !(enemy.enemy is HostageScript) ? totalEnemy + 1 : totalEnemy + 0;
             yield return new WaitForSeconds(enemy.delay);
             //Get Enemy To Move
             enemy.enemy.Init(this); // pass shoot out point
@@ -55,8 +57,9 @@ public class ShootOutPoint : MonoBehaviour
     {
         enemyKilled++;
 
-        if (enemyKilled == enemyList.Length)
+        if (enemyKilled == totalEnemy)
         {
+            Debug.Log(gameObject.name + " cleared!");
             playerMove.SetPlayerMovement (true);
             AreaCleared = true;
             activePoint = false;

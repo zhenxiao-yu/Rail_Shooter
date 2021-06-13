@@ -2283,3 +2283,319 @@ Received Import Request.
 Start importing Assets/Animations/Controller/UpperBodyMask.mask using Guid(83b369ea4fed50442b885f322706649a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b5b45816ac75e101db828b4f2f1903') in 0.002421 seconds
   Import took 0.005454 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 180.623552 seconds.
+  path: Assets/Animations/Controller/HostageController.controller
+  artifactKey: Guid(4bacfca62b11acc48a5ca43482520878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Controller/HostageController.controller using Guid(4bacfca62b11acc48a5ca43482520878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d67eec6b434e26193a04b9311e4d758') in 0.007319 seconds
+  Import took 0.010672 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003319 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.823 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2074 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.0 MB.
+System memory in use after: 176.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2759.
+Total: 2.576400 ms (FindLiveObjects: 0.213900 ms CreateObjectMapping: 0.051800 ms MarkObjects: 2.133800 ms  DeleteObjects: 0.176100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 314.270673 seconds.
+  path: Assets/Animations/Robot Kyle@Female Laying Pose.fbx
+  artifactKey: Guid(17ccc9df2dfb66c4f8fbbacc6a730c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Female Laying Pose.fbx using Guid(17ccc9df2dfb66c4f8fbbacc6a730c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7a98896f40b18d18a13b5083dd78b0') in 0.016557 seconds
+  Import took 0.020091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.933753 seconds.
+  path: Assets/Animations/Robot Kyle@Female Laying Pose.fbx
+  artifactKey: Guid(17ccc9df2dfb66c4f8fbbacc6a730c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Female Laying Pose.fbx using Guid(17ccc9df2dfb66c4f8fbbacc6a730c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db871718dc46c51a3b82ef617991abe') in 0.005112 seconds
+  Import took 0.008554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019087 seconds.
+  path: Assets/Animations/Robot Kyle@Female Laying Pose.fbx
+  artifactKey: Guid(17ccc9df2dfb66c4f8fbbacc6a730c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Female Laying Pose.fbx using Guid(17ccc9df2dfb66c4f8fbbacc6a730c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db871718dc46c51a3b82ef617991abe') in 0.004738 seconds
+  Import took 0.008261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.095177 seconds.
+  path: Assets/Animations/Robot Kyle@Female Laying Pose.fbx
+  artifactKey: Guid(17ccc9df2dfb66c4f8fbbacc6a730c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Female Laying Pose.fbx using Guid(17ccc9df2dfb66c4f8fbbacc6a730c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e513bdef04cd0fe4af3115d768cff6') in 0.004565 seconds
+  Import took 0.007713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013082 seconds.
+  path: Assets/Animations/Robot Kyle@Female Laying Pose.fbx
+  artifactKey: Guid(17ccc9df2dfb66c4f8fbbacc6a730c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Female Laying Pose.fbx using Guid(17ccc9df2dfb66c4f8fbbacc6a730c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e513bdef04cd0fe4af3115d768cff6') in 0.004716 seconds
+  Import took 0.007783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.123286 seconds.
+  path: Assets/Animations/Robot Kyle@Female Laying Pose.fbx
+  artifactKey: Guid(17ccc9df2dfb66c4f8fbbacc6a730c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Female Laying Pose.fbx using Guid(17ccc9df2dfb66c4f8fbbacc6a730c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e7614961f7991244f63fb42aa7b928') in 0.005725 seconds
+  Import took 0.009638 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002988 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.800 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2074 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.1 MB.
+System memory in use after: 176.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2762.
+Total: 2.505600 ms (FindLiveObjects: 0.223600 ms CreateObjectMapping: 0.053100 ms MarkObjects: 2.136900 ms  DeleteObjects: 0.091200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003207 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.893 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2074 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.1 MB.
+System memory in use after: 176.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2765.
+Total: 2.585900 ms (FindLiveObjects: 0.237600 ms CreateObjectMapping: 0.053600 ms MarkObjects: 2.204300 ms  DeleteObjects: 0.089500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003137 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.811 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2074 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.1 MB.
+System memory in use after: 176.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2768.
+Total: 2.464500 ms (FindLiveObjects: 0.213300 ms CreateObjectMapping: 0.051200 ms MarkObjects: 2.111500 ms  DeleteObjects: 0.087700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1085.998356 seconds.
+  path: Assets/Animations/Robot Kyle@Male Sitting Pose.fbx
+  artifactKey: Guid(5ae4692a6e5eb1043850daa05ee0de53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Male Sitting Pose.fbx using Guid(5ae4692a6e5eb1043850daa05ee0de53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f794ab2352f331d55fc9a60e67556407') in 0.015717 seconds
+  Import took 0.018944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.770522 seconds.
+  path: Assets/Animations/Robot Kyle@Male Sitting Pose.fbx
+  artifactKey: Guid(5ae4692a6e5eb1043850daa05ee0de53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Male Sitting Pose.fbx using Guid(5ae4692a6e5eb1043850daa05ee0de53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9100bde0ca96c49b082e2fd7dcae12') in 0.004673 seconds
+  Import took 0.007908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024822 seconds.
+  path: Assets/Animations/Robot Kyle@Male Sitting Pose.fbx
+  artifactKey: Guid(5ae4692a6e5eb1043850daa05ee0de53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Male Sitting Pose.fbx using Guid(5ae4692a6e5eb1043850daa05ee0de53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9100bde0ca96c49b082e2fd7dcae12') in 0.004498 seconds
+  Import took 0.007462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.770291 seconds.
+  path: Assets/Animations/Robot Kyle@Male Sitting Pose.fbx
+  artifactKey: Guid(5ae4692a6e5eb1043850daa05ee0de53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Male Sitting Pose.fbx using Guid(5ae4692a6e5eb1043850daa05ee0de53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cc189047868ce59e8a0884b4a0e2a8') in 0.005186 seconds
+  Import took 0.008433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023037 seconds.
+  path: Assets/Animations/Robot Kyle@Male Sitting Pose.fbx
+  artifactKey: Guid(5ae4692a6e5eb1043850daa05ee0de53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Robot Kyle@Male Sitting Pose.fbx using Guid(5ae4692a6e5eb1043850daa05ee0de53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cc189047868ce59e8a0884b4a0e2a8') in 0.004576 seconds
+  Import took 0.007810 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003341 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.853 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2074 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.1 MB.
+System memory in use after: 176.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2771.
+Total: 2.603400 ms (FindLiveObjects: 0.234200 ms CreateObjectMapping: 0.056300 ms MarkObjects: 2.224100 ms  DeleteObjects: 0.087700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1598.104027 seconds.
+  path: Assets/_Game/_Scripts/ShootOutPoint.cs
+  artifactKey: Guid(d8abae02b92c45141b7d6fc62881438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Scripts/ShootOutPoint.cs using Guid(d8abae02b92c45141b7d6fc62881438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef3f354f946b158128f6eafb8933cf0') in 0.006029 seconds
+  Import took 0.009648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019159 seconds.
+  path: Assets/_Game/_Scripts/ShootOutPoint.cs
+  artifactKey: Guid(d8abae02b92c45141b7d6fc62881438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Scripts/ShootOutPoint.cs using Guid(d8abae02b92c45141b7d6fc62881438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef3f354f946b158128f6eafb8933cf0') in 0.002400 seconds
+  Import took 0.005695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 195.323050 seconds.
+  path: Assets/_Game/_Scripts/ShootOutPoint.cs
+  artifactKey: Guid(d8abae02b92c45141b7d6fc62881438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Scripts/ShootOutPoint.cs using Guid(d8abae02b92c45141b7d6fc62881438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77363acc878d7bec98e1dda33e4249b') in 0.002624 seconds
+  Import took 0.006731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001141 seconds.
+  path: Assets/_Game/_Scripts/ShootOutPoint.cs
+  artifactKey: Guid(d8abae02b92c45141b7d6fc62881438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Scripts/ShootOutPoint.cs using Guid(d8abae02b92c45141b7d6fc62881438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77363acc878d7bec98e1dda33e4249b') in 0.002352 seconds
+  Import took 0.005712 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003170 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.860 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2074 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.0 MB.
+System memory in use after: 176.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2774.
+Total: 2.638500 ms (FindLiveObjects: 0.260200 ms CreateObjectMapping: 0.056100 ms MarkObjects: 2.232200 ms  DeleteObjects: 0.089000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.293920 seconds.
+  path: Assets/_Game/_Scripts/ShootOutPoint.cs
+  artifactKey: Guid(d8abae02b92c45141b7d6fc62881438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Scripts/ShootOutPoint.cs using Guid(d8abae02b92c45141b7d6fc62881438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a2ae1a009a365ceea5e656e920f45c') in 0.004929 seconds
+  Import took 0.008164 seconds .
+
