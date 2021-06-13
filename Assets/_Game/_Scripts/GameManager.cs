@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
     private float currentHealth;
     private int enemyHit, shotsFired;
 
+    private TimerObject timerObject = new TimerObject();
+
     private void Awake()
     {
         //initialize current instance
@@ -68,6 +70,16 @@ public class GameManager : MonoBehaviour
         //take damage when the player is hit
         currentHealth -= damage;
         playerScript.ShakeCamera(0.5f, 0.2f, 5f);
+    }
+
+    public void StartTimer(float duration)
+    {
+        timerObject.StartTimer(this, duration);
+    }
+
+    public void StopTimer()
+    {
+        timerObject.StopTimer(this);
     }
 }
 

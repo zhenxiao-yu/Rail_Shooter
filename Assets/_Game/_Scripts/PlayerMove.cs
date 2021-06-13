@@ -45,7 +45,7 @@ public class PlayerMove : MonoBehaviour
                         return;
 
                     if (isMoving)
-                        shootOutEntries[i].shootOutPoint.StartShootOut();
+                        shootOutEntries[i].shootOutPoint.StartShootOut(shootOutEntries[i].areaTimer);
                 }
             }
         }
@@ -72,4 +72,5 @@ public class ShootOutEntry
 {
     public ShootOutPoint shootOutPoint;
     public float distance;
+    public float areaTimer = 15f;
 }

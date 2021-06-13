@@ -150,6 +150,11 @@ public class EnemyScript : MonoBehaviour, IHitable
             yield return new WaitForSeconds(interval.GetValue);
         }
     }
+
+    public void StopShooting()
+    {
+        StopAllCoroutines();
+    }
 }
 
 [System.Serializable]

@@ -4145,7 +4145,7 @@ PrefabInstance:
     - target: {fileID: 4958410832397394479, guid: c69172f453a294349bc9ad70100dfe41,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.875706
+      value: -1.875
       objectReference: {fileID: 0}
     - target: {fileID: 4958410832397394479, guid: c69172f453a294349bc9ad70100dfe41,
         type: 3}
@@ -4155,7 +4155,7 @@ PrefabInstance:
     - target: {fileID: 4958410832397394479, guid: c69172f453a294349bc9ad70100dfe41,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.3791337
+      value: -0.125
       objectReference: {fileID: 0}
     - target: {fileID: 4958410832397394479, guid: c69172f453a294349bc9ad70100dfe41,
         type: 3}
@@ -12186,7 +12186,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 784627271}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.75, y: 5, z: 2}
+  m_LocalPosition: {x: -2.875, y: 5, z: 1.625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1387036289}
@@ -14046,26 +14046,37 @@ MonoBehaviour:
   shootOutEntries:
   - shootOutPoint: {fileID: 1330959343}
     distance: 2.9
+    areaTimer: 15
   - shootOutPoint: {fileID: 1387036290}
     distance: 13
+    areaTimer: 15
   - shootOutPoint: {fileID: 1749121408}
     distance: 18.3
+    areaTimer: 15
   - shootOutPoint: {fileID: 1920897185}
     distance: 36.1
+    areaTimer: 15
   - shootOutPoint: {fileID: 1363338237}
     distance: 45
+    areaTimer: 15
   - shootOutPoint: {fileID: 365156458}
     distance: 54
+    areaTimer: 15
   - shootOutPoint: {fileID: 2115262989}
     distance: 62
+    areaTimer: 15
   - shootOutPoint: {fileID: 692219246}
     distance: 77.05
+    areaTimer: 15
   - shootOutPoint: {fileID: 2051625698}
     distance: 97.5
+    areaTimer: 15
   - shootOutPoint: {fileID: 838892891}
     distance: 109.6
+    areaTimer: 15
   - shootOutPoint: {fileID: 519916468}
     distance: 125
+    areaTimer: 5
   previewDistance: 0
   enableDebug: 0
 --- !u!114 &963194230
@@ -19951,9 +19962,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyList:
   - enemy: {fileID: 402694733}
-    delay: 1
-  - enemy: {fileID: 900845064}
     delay: 2
+  - enemy: {fileID: 900845064}
+    delay: 1
 --- !u!1 &1390705981
 GameObject:
   m_ObjectHideFlags: 0
@@ -27646,7 +27657,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1896495956}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.375, y: 5, z: 2.625}
+  m_LocalPosition: {x: -5, y: 5, z: 1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1387036289}
