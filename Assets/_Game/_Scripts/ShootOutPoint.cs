@@ -38,6 +38,7 @@ public class ShootOutPoint : MonoBehaviour
         playerMove.SetPlayerMovement (false);
         StartCoroutine(SendEnemies());
         this.DelayedAction(SetAreaCleared, timer);
+        GameManager.Instance.StartTimer(timer);
     }
 
     IEnumerator SendEnemies()
@@ -64,6 +65,8 @@ public class ShootOutPoint : MonoBehaviour
             playerMove.SetPlayerMovement (true);
             AreaCleared = true;
             activePoint = false;
+            //Stop timer if all enemies has been killed
+            GameManager.Instance.StopTimer();
         }
     }
 

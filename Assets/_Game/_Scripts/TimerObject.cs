@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class TimerObject  
 {
     public int displayTimer;
@@ -13,6 +14,8 @@ public class TimerObject
             Debug.Log("Timer Already Runs");
             return;
         }
+
+        timer = mb.StartCoroutine(TimerRuns(duration));
     }
 
     public void StopTimer(MonoBehaviour mb)

@@ -14046,10 +14046,10 @@ MonoBehaviour:
   shootOutEntries:
   - shootOutPoint: {fileID: 1330959343}
     distance: 2.9
-    areaTimer: 15
+    areaTimer: 10
   - shootOutPoint: {fileID: 1387036290}
     distance: 13
-    areaTimer: 15
+    areaTimer: 10
   - shootOutPoint: {fileID: 1749121408}
     distance: 18.3
     areaTimer: 15
