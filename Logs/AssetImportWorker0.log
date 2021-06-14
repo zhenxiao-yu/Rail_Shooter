@@ -991,3 +991,20 @@ System memory in use after: 174.0 MB.
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2701.
 Total: 2.538500 ms (FindLiveObjects: 0.211200 ms CreateObjectMapping: 0.048200 ms MarkObjects: 2.076700 ms  DeleteObjects: 0.201500 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 4469.470726 seconds.
+  path: Assets/_Game/Fonts/ChakraPetch-Bold SDF.asset
+  artifactKey: Guid(29e8b1e2b6b505f439caea8794cc76f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Fonts/ChakraPetch-Bold SDF.asset using Guid(29e8b1e2b6b505f439caea8794cc76f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6529656697e7a9d43d6a29d75c836ae') in 0.109497 seconds
+  Import took 0.113970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/_Game/Fonts/ChakraPetch-Regular SDF.asset
+  artifactKey: Guid(57fda2c6768e0324ba18c3b527b63b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Fonts/ChakraPetch-Regular SDF.asset using Guid(57fda2c6768e0324ba18c3b527b63b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fadf92916b373c7c0e564534c275a81') in 0.029244 seconds
+  Import took 0.032552 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
