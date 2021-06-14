@@ -6988,6 +6988,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: EndScreen
       objectReference: {fileID: 0}
+    - target: {fileID: 420609550757074259, guid: f3ef0c0a4ee38cc48bbda4d6e11e6fdb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 420609550803838984, guid: f3ef0c0a4ee38cc48bbda4d6e11e6fdb,
         type: 3}
       propertyPath: m_fontSize

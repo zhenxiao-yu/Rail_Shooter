@@ -114,6 +114,11 @@ public class GameManager : MonoBehaviour
         Vector3 screenPos = playerMove.GetComponent<Camera>().WorldToScreenPoint(pos);
         uiManager.ShowHostageKilled(screenPos, show);
     }
+
+    void ShowEndScreen()
+    {
+        uiManager.ShowEndScreen(enemyKilled, totalEnemy, hostageKilled, shotsFired, enemyHit);
+    }
 }
 
 public enum GameState //Enumeration for stages of Game
