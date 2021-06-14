@@ -97,14 +97,22 @@ public class GameManager : MonoBehaviour
         totalEnemy++;
     }
 
-    public void HostageKilled()
+    public void HostageKilled(Vector3 worldPos)
     {
         hostageKilled++;
+        ShowHostageKilled(worldPos, true);
+        this.DelayedAction(delegate { ShowHostageKilled(worldPos, false); }, 3f);
     }
 
     public void EnemyKilled()
     {
         enemyKilled++;
+    }
+
+    void ShowHostageKilled(Vector3 pos, bool show)
+    {
+        Vector3 screenPos = playerMove.GetComponent<Camera>().WorldToScreenPoint(pos);
+        uiManager.ShowHostageKilled(screenPos, show);
     }
 }
 

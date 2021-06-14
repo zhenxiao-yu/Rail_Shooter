@@ -9,6 +9,7 @@ public class UIManager
 {
    [SerializeField] Slider healthBar;
    [SerializeField] TextMeshProUGUI timerText;
+   [SerializeField] RectTransform hostageKilledText;
 
    [Header("Weapon HUD")]
    [SerializeField] Image weaponIcon;
@@ -19,6 +20,7 @@ public class UIManager
    {
        healthBar.maxValue = maxHealth;
        healthBar.value = maxHealth;
+       hostageKilledText.gameObject.SetActive(false);
        PlayerScript.OnWeaponChanged += UpdateWeapon;
        TimerObject.OnTimerChanged += UpdateTimer;
    }
@@ -56,5 +58,18 @@ public class UIManager
        reloadWarning.SetActive(ammo <= 0);
        //format bullet count
        ammoText.SetText(ammo.ToString("00"));
+   }
+
+   public void ShowHostageKilled(Vector3 pos, bool show)
+   {
+       hostageKilledText.gameObject.SetActive(show);
+
+       if(!show)
+        return;
+
+     hostageKilledText.position = pos;
+     Vector2 adjustPos = Extensions.GetPositionInsideScreen(new Vector2 (1920f, 1080f), hostageKilledText, 25f); 
+     //apply to anchored position
+     hostageKilledText.anchoredPosition = adjustPos;
    }
 }
