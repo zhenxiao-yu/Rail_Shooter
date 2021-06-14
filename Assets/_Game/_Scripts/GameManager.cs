@@ -36,12 +36,16 @@ public class GameManager : MonoBehaviour
     {
         currentHealth = playerHealth;
         uiManager.Init(currentHealth); //initialize health value
+        //show EndScreen When level is finished (subscribe)
+        PlayerMove.OnLevelFinished += ShowEndScreen;
     }
 
     void OnDisable()
     {
         //unbind events
         uiManager.RemoveEvent();
+        //unsubscribe
+        PlayerMove.OnLevelFinished -= ShowEndScreen;
     }
 
     public void SwitchState(GameState newState)
@@ -117,7 +121,8 @@ public class GameManager : MonoBehaviour
 
     void ShowEndScreen()
     {
-        uiManager.ShowEndScreen(enemyKilled, totalEnemy, hostageKilled, shotsFired, enemyHit);
+        this.DelayedAction(delegate {uiManager.ShowEndScreen(enemyKilled, totalEnemy, hostageKilled, shotsFired, enemyHit); }, 0.2f);
+        
     }
 }
 

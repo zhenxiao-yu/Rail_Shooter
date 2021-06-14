@@ -5,6 +5,8 @@ using PathCreation; //Path Creator Ref
 
 public class PlayerMove : MonoBehaviour
 {
+
+    public static System.Action OnLevelFinished = delegate { };
     [SerializeField] PathCreator path; //preset path ref
     [SerializeField] EndOfPathInstruction endOfPath;
     [SerializeField] float speed = 3f; //camera movement speed
@@ -16,6 +18,7 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] bool enableDebug;
 
     private float distanceTravelled;
+    private int areaCleared;
 
     // Start is called before the first frame update
     void Start()
@@ -59,6 +62,20 @@ public class PlayerMove : MonoBehaviour
             transform.position = path.path.GetPointAtDistance(previewDistance, endOfPath);
             transform.rotation = path.path.GetRotationAtDistance(previewDistance, endOfPath);
         }
+    }
+
+    //clearing an area
+    public void AreaCleared()
+    {
+        areaCleared++;
+
+        if(areaCleared == shootOutEntries.Length)
+        {
+            OnLevelFinished();
+            return;
+        }
+
+        SetPlayerMovement(true);
     }
 
     public void SetPlayerMovement(bool isEnable)

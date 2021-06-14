@@ -91,6 +91,7 @@ public class UIManager
        enemyKilled.SetText(((enemyKill / (float)totalEnemy) * 100f).ToString("00") + "%");
        hostageKilled.SetText(hostageKill.ToString());
        shots.SetText(totalShots.ToString());
-       hit.SetText(((totalHit / (float)totalShots) * 100f).ToString("00") + "%");
+       hit.SetText(totalHit.ToString());
+       accuracy.SetText(((totalHit / (float)totalShots) * 100f).ToString("00") + "%");
    }
 }
