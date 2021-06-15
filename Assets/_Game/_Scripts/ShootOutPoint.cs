@@ -15,6 +15,16 @@ public class ShootOutPoint : MonoBehaviour
         playerMove = value;
     }
 
+    private void Start()
+    {
+        foreach (var enemy in enemyList)
+        {
+            //hide enemy and hostage on start
+            enemy.enemy.gameObject.SetActive(false);
+            //only count enemy, not the hostage
+            totalEnemy = !(enemy.enemy is HostageScript) ? totalEnemy + 1 : totalEnemy + 0;
+        }
+    }
 
     // Update is called once per frame
     void Update()
@@ -45,9 +55,8 @@ public class ShootOutPoint : MonoBehaviour
     {
         foreach(var enemy in enemyList)
         {
-            //only count enemy, not the hostage
-            totalEnemy = !(enemy.enemy is HostageScript) ? totalEnemy + 1 : totalEnemy + 0;
             yield return new WaitForSeconds(enemy.delay);
+            enemy.enemy.gameObject.SetActive(true); //show enemy and hostage again
             //Get Enemy To Move
             enemy.enemy.Init(this); // pass shoot out point
 

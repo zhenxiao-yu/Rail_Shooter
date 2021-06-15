@@ -23,8 +23,7 @@ public class EnemyScript : MonoBehaviour, IHitable
     private Vector3 movementLocal;
 
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         //Get Navigation Mesh Component 
         agent = GetComponent<NavMeshAgent>();
@@ -126,7 +125,9 @@ public class EnemyScript : MonoBehaviour, IHitable
     protected virtual void DeadBehaviour()
     {
         shootOutPoint.EnemyKilled();
+        StopShooting(); //end coroutine when the nemy is killed
         GameManager.Instance.EnemyKilled();
+
     }
 
     IEnumerator Shoot()
