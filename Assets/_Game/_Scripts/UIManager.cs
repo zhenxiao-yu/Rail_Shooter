@@ -15,6 +15,7 @@ public class UIManager
    [SerializeField] Image weaponIcon;
    [SerializeField] TextMeshProUGUI ammoText;
    [SerializeField] GameObject reloadWarning;
+   [SerializeField] RectTransform crossHair;
 
    [Header("Score Properties")]
    [SerializeField] TextMeshProUGUI enemyKilled;
@@ -29,6 +30,10 @@ public class UIManager
    private WeaponData currentWeapon;
    public void Init(float maxHealth)
    {
+       if(crossHair != null)
+          Cursor.visible = false;
+
+
        healthBar.maxValue = maxHealth;
        healthBar.value = maxHealth;
        hostageKilledText.gameObject.SetActive(false);
@@ -93,5 +98,11 @@ public class UIManager
        shots.SetText(totalShots.ToString());
        hit.SetText(totalHit.ToString());
        accuracy.SetText(((totalHit / (float)totalShots) * 100f).ToString("00") + "%");
+   }
+
+   public void MoveCrosshair(Vector3 mousePosition)
+   {
+       if (crossHair != null)
+           crossHair.position = mousePosition;
    }
 }

@@ -17,6 +17,9 @@ TextureImporter:
   - first:
       213: -2456897191603583936
     second: UI_Icon_Hand_Gun
+  - first:
+      213: -2624902610638247176
+    second: UI_CrossHair
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -201,7 +204,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 296
-        y: 6
+        y: 7
         width: 153
         height: 79
       alignment: 0
@@ -213,6 +216,27 @@ TextureImporter:
       bones: []
       spriteID: a52e531f623443646b0af90d0ed304e0
       internalID: -2456897191603583936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_CrossHair
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 406
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8777f73dccedefa45b43ecc8ea22e224
+      internalID: -2624902610638247176
       vertices: []
       indices: 
       edges: []

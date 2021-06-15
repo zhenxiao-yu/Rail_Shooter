@@ -124,6 +124,11 @@ public class GameManager : MonoBehaviour
         this.DelayedAction(delegate {uiManager.ShowEndScreen(enemyKilled, totalEnemy, hostageKilled, shotsFired, enemyHit); }, 0.2f);
         
     }
+
+    private void Update()
+    {
+        uiManager.MoveCrosshair(Input.mousePosition);
+    }
 }
 
 public enum GameState //Enumeration for stages of Game
