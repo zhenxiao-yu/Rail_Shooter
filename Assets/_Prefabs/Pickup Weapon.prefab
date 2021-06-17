@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8537607560662813473}
   - component: {fileID: 8537607560662813474}
   m_Layer: 0
-  m_Name: BombBarrel
+  m_Name: Pickup Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -108,6 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d469c05b6a9ba754c90b9cdffe2594a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabsToSpawn: {fileID: 1121192042590650, guid: f30c472f525a63442836e7b30394b3c4,
+  prefabsToSpawn: {fileID: 3182839817748938504, guid: ce7d39d5e79dae8489da7485a7838239,
     type: 3}
+  yOffset: 0.5
   destroyOnHit: 1
