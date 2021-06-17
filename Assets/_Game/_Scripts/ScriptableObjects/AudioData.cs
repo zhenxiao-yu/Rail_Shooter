@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AudioData : MonoBehaviour
+[System.Serializable]
+public class AudioData
 {
     [SerializeField] string audioName;
     [SerializeField] AudioClip[] audioClips;

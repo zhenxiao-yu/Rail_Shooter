@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu (fileName = "AudioLib", menuName = "Audio Library")]
-public class AudioLiberary : ScriptableObject
+public class AudioLibrary : ScriptableObject
 {
     [SerializeField] AudioData[] audioList;
 
