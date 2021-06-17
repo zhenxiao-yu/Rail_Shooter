@@ -24,8 +24,8 @@ GameObject:
   - component: {fileID: 4958410832397394478}
   - component: {fileID: 4958410832397394466}
   - component: {fileID: 4958410832397394467}
-  - component: {fileID: 137634106622830517}
   - component: {fileID: -5417556630540266806}
+  - component: {fileID: 137634106622830517}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -100,6 +100,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-5417556630540266806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4958410832397394476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 056c3bc21792288498609e5b17b2fa7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectsPrefabs: {fileID: 2466589827929435131, guid: 0fe2ca9e1220c1e48af6a380c4b8b88a,
+    type: 3}
 --- !u!114 &137634106622830517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,20 +133,6 @@ MonoBehaviour:
     max: 2.7
   shootAccuracy: 0.5
   shotFx: {fileID: 7724806907512845453}
---- !u!114 &-5417556630540266806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4958410832397394476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 056c3bc21792288498609e5b17b2fa7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  effectsPrefabs: {fileID: 2466589827929435131, guid: 0fe2ca9e1220c1e48af6a380c4b8b88a,
-    type: 3}
 --- !u!1001 &1801462689315718676
 PrefabInstance:
   m_ObjectHideFlags: 0
