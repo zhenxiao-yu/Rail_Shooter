@@ -7,6 +7,8 @@ public class AudioLibrary : ScriptableObject
 {
     [SerializeField] AudioData[] audioList;
 
+    public static List<string> audioNamesList = new List<string>();
+
     public AudioData GetAudioByName(string name)
     {
         AudioData value = null;
@@ -19,10 +21,21 @@ public class AudioLibrary : ScriptableObject
 
         return value;
     }
+
+    void OnValidate()
+    {
+        audioNamesList.Clear();
+
+        foreach (var audio in audioList)
+        {
+            audioNamesList.Add(audio.AudioName);
+        }
+    }
 }
 
 [System.Serializable]
 public class AudioGetter
 {
     public string audioName;
+    public int id;
 }
