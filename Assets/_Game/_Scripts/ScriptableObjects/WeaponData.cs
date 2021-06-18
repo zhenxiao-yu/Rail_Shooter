@@ -14,6 +14,7 @@ public class WeaponData : ScriptableObject
     [SerializeField] int damageValue; //Damage Value
     [SerializeField] bool defaultWeapon; //Is Default Weapon?
     [SerializeField] GameObject muzzleFX; //muzzle effect
+    [SerializeField] AudioGetter gunShotSfx; //Shooting Sound
     [SerializeField] float fxScale = 0.1f; //size of effect
     [SerializeField] Sprite weaponIcon;
 
@@ -90,6 +91,8 @@ public class WeaponData : ScriptableObject
 
     private void Fire()
     {
+        AudioPlayer.Instance.PlaySFX(gunShotSfx.audioName, player.transform); //play gunshot sound
+        
         RaycastHit hit;
         Ray ray = cam.ScreenPointToRay(Input.mousePosition); //cast ray based on position of mouse
 
