@@ -20,4 +20,9 @@ public class AudioLibrary : ScriptableObject
         return value;
     }
 }
-    
+
+[System.Serializable]
+public class AudioGetter
+{
+    public string audioName;
+}

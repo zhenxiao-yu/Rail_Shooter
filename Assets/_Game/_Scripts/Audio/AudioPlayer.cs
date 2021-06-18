@@ -38,4 +38,11 @@ public class AudioPlayer : MonoBehaviour
         }
     }
 
+    public void PlaySFX(string audioName, Transform audioLocation )
+    {
+        AudioSource temp = audioSources.Dequeue();
+        temp.transform.position = audioLocation.position;
+        temp.PlayAudioData(audioLib.GetAudioByName(audioName));
+        audioSources.Enqueue(temp);
+    }
 }
