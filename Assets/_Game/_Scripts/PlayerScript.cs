@@ -10,6 +10,7 @@ public class PlayerScript : MonoBehaviour
 
     [SerializeField] WeaponData defaultWeapon;
     [SerializeField] AnimationCurve glitchCurve;
+    [SerializeField] AudioGetter damageSfx;
 
     private Camera cam; //Main Camera Ref
     private WeaponData currentWeapon;
@@ -48,6 +49,7 @@ public class PlayerScript : MonoBehaviour
 
     IEnumerator DoCameraShake(float timer, float amp, float freq)
     {
+        AudioPlayer.Instance.PlaySFX(damageSfx, transform);
         Vector3 initPos = transform.position;
         Vector3 newPos = transform.position;
         float duration = timer;

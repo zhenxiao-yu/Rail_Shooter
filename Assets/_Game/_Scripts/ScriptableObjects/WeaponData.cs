@@ -14,7 +14,7 @@ public class WeaponData : ScriptableObject
     [SerializeField] int damageValue; //Damage Value
     [SerializeField] bool defaultWeapon; //Is Default Weapon?
     [SerializeField] GameObject muzzleFX; //muzzle effect
-    [SerializeField] AudioGetter gunShotSfx; //Shooting Sound
+    [SerializeField] AudioGetter gunShotSfx, reloadSfx, emptySfx, reloadWarningSfx; //sound sfx
     [SerializeField] float fxScale = 0.1f; //size of effect
     [SerializeField] Sprite weaponIcon;
 
@@ -54,9 +54,11 @@ public class WeaponData : ScriptableObject
                 currentAmmo--;
                 OnWeaponFired(currentAmmo);
             }
-            else
+            else if (Input.GetMouseButtonDown(0) && currentAmmo <= 0)
             {
                 //ammo runs out
+                AudioPlayer.Instance.PlaySFX(emptySfx, player.transform);
+                AudioPlayer.Instance.PlaySFX(reloadWarningSfx, player.transform);
             }
         }
         else
@@ -68,15 +70,18 @@ public class WeaponData : ScriptableObject
                 currentAmmo--;
                 nextFireTime = Time.time + rate;
             }
-            else if (currentAmmo <= 0)
+            else if (Input.GetMouseButton(0) && Time.time > nextFireTime && currentAmmo <= 0)
             {
                 //ammo runs out
+                AudioPlayer.Instance.PlaySFX(emptySfx, player.transform);
+                AudioPlayer.Instance.PlaySFX(reloadWarningSfx, player.transform);
             } 
         }
 
         if (defaultWeapon && Input.GetMouseButtonDown(1)) //Reload Using Right Click For Custom Weapon
         {
             currentAmmo = maxAmmo;
+            AudioPlayer.Instance.PlaySFX(reloadSfx, player.transform);
             OnWeaponFired(currentAmmo);
         }
 
@@ -111,7 +116,7 @@ public class WeaponData : ScriptableObject
             {
                 //Make hitables an array for objects with multiple on hit components
                 IHitable[] hitables = hit.collider.GetComponents<IHitable>();
-                //Check calidity of hitable objects and excute hit
+                //Check validity of hitable objects and execute hit
                 if (hitables != null && hitables.Length > 0)
                 {
                     foreach (var hitable in hitables)

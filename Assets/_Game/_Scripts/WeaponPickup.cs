@@ -6,6 +6,7 @@ public class WeaponPickup : MonoBehaviour, IHitable
 {
     [SerializeField] WeaponData weapon; //Weapon Type
     [SerializeField] float rotateSpeed = 90f; //How Fast The Pickup Roatates
+    [SerializeField] AudioGetter pickupSfx;
 
     private PlayerScript player; //Player Ref
 
@@ -13,6 +14,7 @@ public class WeaponPickup : MonoBehaviour, IHitable
     {
         //Switch To Custom Weapon
         player.SwitchWeapon(weapon);
+        AudioPlayer.Instance.PlaySFX(pickupSfx);
         //Destroy Pickup Object
         Destroy(gameObject);
     }

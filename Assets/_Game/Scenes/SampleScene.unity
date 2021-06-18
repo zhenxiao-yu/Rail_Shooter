@@ -615,6 +615,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &40056195
 GameObject:
   m_ObjectHideFlags: 0
@@ -943,6 +945,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &44016368
 GameObject:
   m_ObjectHideFlags: 0
@@ -1271,6 +1275,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!43 &61141006
 Mesh:
   m_ObjectHideFlags: 0
@@ -1763,6 +1769,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &78609191
 GameObject:
   m_ObjectHideFlags: 0
@@ -2091,6 +2099,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!114 &87646361 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 420609550401832348, guid: f3ef0c0a4ee38cc48bbda4d6e11e6fdb,
@@ -2431,6 +2441,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &105807734
 GameObject:
   m_ObjectHideFlags: 0
@@ -2759,6 +2771,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!43 &111954589
 Mesh:
   m_ObjectHideFlags: 0
@@ -4275,6 +4289,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!43 &251964845
 Mesh:
   m_ObjectHideFlags: 0
@@ -5017,6 +5033,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!43 &319316416
 Mesh:
   m_ObjectHideFlags: 0
@@ -5509,6 +5527,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &361772055
 GameObject:
   m_ObjectHideFlags: 0
@@ -5837,6 +5857,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &362279355
 GameObject:
   m_ObjectHideFlags: 0
@@ -6392,6 +6414,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!4 &402694732 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4958410832397394479, guid: c69172f453a294349bc9ad70100dfe41,
@@ -6738,6 +6762,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1001 &424831892
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7986,6 +8012,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &521089095
 GameObject:
   m_ObjectHideFlags: 0
@@ -8508,6 +8536,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &538737702
 GameObject:
   m_ObjectHideFlags: 0
@@ -8836,6 +8866,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &551892515
 GameObject:
   m_ObjectHideFlags: 0
@@ -9164,6 +9196,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &553308855
 GameObject:
   m_ObjectHideFlags: 0
@@ -9492,6 +9526,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &568439722
 GameObject:
   m_ObjectHideFlags: 0
@@ -10392,6 +10428,54 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
+--- !u!1 &668185112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 668185114}
+  - component: {fileID: 668185113}
+  m_Layer: 0
+  m_Name: Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &668185113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668185112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acd63cb1cecbcf346b195b87d511498f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSfx:
+    id: 9
+  delay: 0
+--- !u!4 &668185114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668185112}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &674268087
 Mesh:
   m_ObjectHideFlags: 0
@@ -11511,6 +11595,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!43 &709158266
 Mesh:
   m_ObjectHideFlags: 0
@@ -12470,6 +12556,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &782651332
 GameObject:
   m_ObjectHideFlags: 0
@@ -12798,6 +12886,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &784627271
 GameObject:
   m_ObjectHideFlags: 0
@@ -13665,6 +13755,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &872271038
 GameObject:
   m_ObjectHideFlags: 0
@@ -13993,6 +14085,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!43 &888603951
 Mesh:
   m_ObjectHideFlags: 0
@@ -14667,6 +14761,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!114 &933805920 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7285316171337353652, guid: c63078f834ca1f642ae634e5c90903fa,
@@ -14868,6 +14964,8 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  damageSfx:
+    id: 6
 --- !u!114 &963194231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15598,6 +15696,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &985966607
 GameObject:
   m_ObjectHideFlags: 0
@@ -15926,6 +16026,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!43 &1023316260
 Mesh:
   m_ObjectHideFlags: 0
@@ -16418,6 +16520,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!43 &1050112859
 Mesh:
   m_ObjectHideFlags: 0
@@ -16910,6 +17014,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!4 &1108123526 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000010805769224, guid: 686fd8e833c62714e8d90ea73c3873e2,
@@ -17244,6 +17350,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!43 &1128595346
 Mesh:
   m_ObjectHideFlags: 0
@@ -17748,6 +17856,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &1186601546
 GameObject:
   m_ObjectHideFlags: 0
@@ -18076,6 +18186,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &1187511378
 GameObject:
   m_ObjectHideFlags: 0
@@ -18404,6 +18516,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1001 &1198365061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18806,6 +18920,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!43 &1212151024
 Mesh:
   m_ObjectHideFlags: 0
@@ -19298,6 +19414,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &1236134068
 GameObject:
   m_ObjectHideFlags: 0
@@ -19626,6 +19744,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1001 &1253321254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20023,6 +20143,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!43 &1264503286
 Mesh:
   m_ObjectHideFlags: 0
@@ -21409,6 +21531,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &1397863787
 GameObject:
   m_ObjectHideFlags: 0
@@ -21737,6 +21861,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &1414411185
 GameObject:
   m_ObjectHideFlags: 0
@@ -22131,6 +22257,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1001 &1452780877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22714,6 +22842,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!43 &1458412163
 Mesh:
   m_ObjectHideFlags: 0
@@ -23370,6 +23500,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!43 &1493936831
 Mesh:
   m_ObjectHideFlags: 0
@@ -23862,6 +23994,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!224 &1523409869 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7285316169865544549, guid: c63078f834ca1f642ae634e5c90903fa,
@@ -24244,6 +24378,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!114 &1540033623 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7285316170532289180, guid: c63078f834ca1f642ae634e5c90903fa,
@@ -24658,6 +24794,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!43 &1625359275
 Mesh:
   m_ObjectHideFlags: 0
@@ -25633,6 +25771,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!43 &1730076636
 Mesh:
   m_ObjectHideFlags: 0
@@ -26286,6 +26426,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &1749121406
 GameObject:
   m_ObjectHideFlags: 0
@@ -26666,6 +26808,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!43 &1771663712
 Mesh:
   m_ObjectHideFlags: 0
@@ -27379,6 +27523,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &1792753807
 GameObject:
   m_ObjectHideFlags: 0
@@ -27707,6 +27853,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!43 &1806488323
 Mesh:
   m_ObjectHideFlags: 0
@@ -28199,6 +28347,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1001 &1823235291
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28614,6 +28764,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!43 &1845236166
 Mesh:
   m_ObjectHideFlags: 0
@@ -29372,6 +29524,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!4 &1883118901 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8535897075868268985, guid: eac753c1f86555248a1192f65db97420,
@@ -29706,6 +29860,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &1896495956
 GameObject:
   m_ObjectHideFlags: 0
@@ -30321,6 +30477,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!43 &1984222858
 Mesh:
   m_ObjectHideFlags: 0
@@ -31276,6 +31434,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &2031000192
 GameObject:
   m_ObjectHideFlags: 0
@@ -31604,6 +31764,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!1 &2037109133
 GameObject:
   m_ObjectHideFlags: 0
@@ -31932,6 +32094,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectsPrefabs: {fileID: 1892351807075712, guid: 0c810b56711695340acbd0575c215f2f,
     type: 3}
+  hitSfx:
+    id: 4
 --- !u!43 &2086360672
 Mesh:
   m_ObjectHideFlags: 0

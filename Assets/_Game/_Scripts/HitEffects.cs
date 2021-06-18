@@ -5,6 +5,7 @@ using UnityEngine;
 public class HitEffects : MonoBehaviour, IHitable
 {
     [SerializeField] GameObject effectsPrefabs;
+    [SerializeField] AudioGetter hitSfx;
 
     private ParticleSystem effectsCache;
 
@@ -14,6 +15,7 @@ public class HitEffects : MonoBehaviour, IHitable
         {
             effectsCache.transform.position = hit.point;
             effectsCache.transform.rotation = Quaternion.LookRotation(hit.normal);
+            AudioPlayer.Instance.PlaySFX(hitSfx, effectsCache.transform);
             effectsCache.Play();
         }
     }
