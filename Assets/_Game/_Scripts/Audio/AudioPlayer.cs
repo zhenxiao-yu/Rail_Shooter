@@ -30,6 +30,7 @@ public class AudioPlayer : MonoBehaviour
         GameObject bgmObject = new GameObject("BGM Source");
         bgmSource = bgmObject.AddComponent<AudioSource>();
         bgmSource.spatialBlend = 0f;
+        bgmSource.loop = true;
         bgmSource.outputAudioMixerGroup = bgmGroup;
         bgmObject.transform.SetParent(transform);
 
@@ -44,11 +45,26 @@ public class AudioPlayer : MonoBehaviour
         }
     }
 
-    public void PlaySFX(string audioName, Transform audioLocation )
+    public void PlaySFX(AudioGetter audioSfx, Transform audioLocation = null )
     {
         AudioSource temp = audioSources.Dequeue();
-        temp.transform.position = audioLocation.position;
-        temp.PlayAudioData(audioLib.GetAudioByName(audioName));
+
+        if(audioLocation != null)
+        {
+            temp.transform.position = audioLocation.position;
+            temp.spatialBlend = 1f; //3d sound
+        }
+        else
+        {
+            temp.spatialBlend = 0f; //2d sound
+        }
+        temp.PlayAudioData(audioLib.GetAudioByName(audioSfx.AudioName));
         audioSources.Enqueue(temp);
+    }
+
+    public void PlayMusic(AudioGetter music)
+    {
+        bgmSource.PlayAudioData(audioLib.GetAudioByName(music.AudioName));
+        bgmSource.pitch = 1f;
     }
 }

@@ -36,6 +36,6 @@ public class AudioLibrary : ScriptableObject
 [System.Serializable]
 public class AudioGetter
 {
-    public string audioName;
+    public string AudioName { get => AudioLibrary.audioNamesList[id]; }
     public int id;
 }

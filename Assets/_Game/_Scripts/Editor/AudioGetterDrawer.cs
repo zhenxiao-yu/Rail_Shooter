@@ -10,6 +10,6 @@ public class AudioGetterDrawer : PropertyDrawer
     {
         position = EditorGUI.PrefixLabel(position, label);
         property.FindPropertyRelative("id").intValue = EditorGUI.Popup(position, property.FindPropertyRelative("id").intValue, AudioLibrary.audioNamesList.ToArray());
-        property.FindPropertyRelative("audioName").stringValue = AudioLibrary.audioNamesList[property.FindPropertyRelative("id").intValue];
+        //property.FindPropertyRelative("audioName").stringValue = AudioLibrary.audioNamesList[property.FindPropertyRelative("id").intValue];
     }
 }
