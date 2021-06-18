@@ -18,6 +18,12 @@ public class AudioPlayer : MonoBehaviour
     {
         Instance = this;
     }
+
+    void Start()
+    {
+        //run init method
+        Init();
+    }
     
     void Init()
     {
