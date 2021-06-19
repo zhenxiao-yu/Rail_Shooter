@@ -24,8 +24,9 @@ public class UIManager
    [SerializeField] TextMeshProUGUI hit;
    [SerializeField] TextMeshProUGUI accuracy;
    [SerializeField] GameObject endScreenPanel;
+   [SerializeField] TextMeshProUGUI rankText; 
 
-
+   
 
    private WeaponData currentWeapon;
    public void Init(float maxHealth)
@@ -98,6 +99,17 @@ public class UIManager
        shots.SetText(totalShots.ToString());
        hit.SetText(totalHit.ToString());
        accuracy.SetText(((totalHit / (float)totalShots) * 100f).ToString("00") + "%");
+   }
+
+   void CalculateScore(int enemyKill, int totalEnemy, int hostageKill, int totalShots, int totalHit)
+   {
+    /*Rank System
+    *Hostage Killed Decrease point by 15
+    A - Enemy Killed > 90% && Accuracy > 80% = Total Average 170/2 = 85
+    B - Enemy Killed > 75% < 90% && Accuracy > 70% < 80% = Total Average > 72% < 85%
+    C - Enemy Killed > 60% < 75% && Accuracy > 55% < 70% = Total Average > 57% < 72%
+    D - Enemy Killed < 60% && Accuracy < 55% Total Average < 57%
+    */
    }
 
    public void MoveCrosshair(Vector3 mousePosition)
