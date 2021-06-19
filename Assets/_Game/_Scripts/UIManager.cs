@@ -110,8 +110,13 @@ public class UIManager
     C - Enemy Killed > 60% < 75% && Accuracy > 55% < 70% = Total Average > 57% < 72%
     D - Enemy Killed < 60% && Accuracy < 55% Total Average < 57%
     */
-   }
 
+    float hostagePenalty = hostageKill * 15f;
+    float enemyKillRatio = ((enemyKill / (float)totalEnemy) * 100f) - hostagePenalty;
+    float accuracyRatio = ((totalHit / (float)totalShots) * 100f) - hostagePenalty;
+
+    
+   }
    public void MoveCrosshair(Vector3 mousePosition)
    {
        if (crossHair != null)
