@@ -97,7 +97,8 @@ public class WeaponData : ScriptableObject
     private void Fire()
     {
         AudioPlayer.Instance.PlaySFX(gunShotSfx, player.transform); //play gunshot sound
-        
+        GameManager.Instance.ShotsFired();
+
         RaycastHit hit;
         Ray ray = cam.ScreenPointToRay(Input.mousePosition); //cast ray based on position of mouse
 
@@ -123,22 +124,16 @@ public class WeaponData : ScriptableObject
                     {
                         hitable.Hit(hit, damageValue); //apply damage
 
-                        if (hitable is EnemyScript)
+                        if (hitable is EnemyScript || hitable is SpawnOnHit || hitable is WeaponPickup)
                         {
-                            GameManager.Instance.ShotHit(true);
-                            return;
-                        }
-                        else
-                        {
-                            GameManager.Instance.ShotHit(false);
+                            GameManager.Instance.ShotHit();
                         }
                     }
                 }
+
                 Debug.Log(hit.collider.gameObject.name); //check collision target name
             }
-            return;
         }
-        GameManager.Instance.ShotHit(false);
     }
 }
 

@@ -70,11 +70,14 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void ShotHit(bool hit)
+    public void ShotHit()
     {
         //used To Calculate The Accuracy of Shot
-        if(hit)
         enemyHit++;
+    }
+
+    public void ShotsFired()
+    {
         shotsFired++;
     }
 
