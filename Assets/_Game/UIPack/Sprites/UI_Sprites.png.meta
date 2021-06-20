@@ -20,6 +20,9 @@ TextureImporter:
   - first:
       213: -2624902610638247176
     second: UI_CrossHair
+  - first:
+      213: -1528731771109299679
+    second: UI_Sprites_Transparent
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -229,7 +232,7 @@ TextureImporter:
         width: 75
         height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -237,6 +240,27 @@ TextureImporter:
       bones: []
       spriteID: 8777f73dccedefa45b43ecc8ea22e224
       internalID: -2624902610638247176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Sprites_Transparent
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 264
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076f3b19b0e63ea489fab3d1b57e1e4e
+      internalID: -1528731771109299679
       vertices: []
       indices: 
       edges: []
