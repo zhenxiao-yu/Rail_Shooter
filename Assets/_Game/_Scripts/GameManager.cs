@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
     private TimerObject timerObject = new TimerObject();
 
     public bool GamePaused { get; private set; }
+    public bool PlayerDead { get; private set; }
 
     private void Awake()
     {
@@ -91,6 +92,12 @@ public class GameManager : MonoBehaviour
         currentHealth -= damage;
         uiManager.UpdateHealth(currentHealth); //Change UI
         playerScript.ShakeCamera(0.5f, 0.2f, 5f);
+
+        if (currentHealth <= 0f)
+        {
+            ShowEndScreen();
+            PlayerDead = true;
+        }
     }
 
     public void StartTimer(float duration)

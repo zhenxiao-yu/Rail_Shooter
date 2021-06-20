@@ -27,7 +27,7 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (currentWeapon != null && !GameManager.Instance.GamePaused)
+        if (currentWeapon != null && !GameManager.Instance.GamePaused && GameManager.Instance.PlayerDead)
             currentWeapon.WeaponUpdate();
     }
 

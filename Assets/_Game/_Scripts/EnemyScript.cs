@@ -137,6 +137,9 @@ public class EnemyScript : MonoBehaviour, IHitable
         //Shoot player while not dead
         while (!isDead)
         {
+            if(GameManager.Instance.PlayerDead)
+                StopShooting();
+
             //Adjust shot effect direction based on Hit Condition 
             shotFx.transform.rotation = Quaternion.LookRotation(transform.forward + Random.insideUnitSphere * 0.1f);
 
