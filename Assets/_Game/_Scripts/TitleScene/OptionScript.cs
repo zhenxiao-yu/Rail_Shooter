@@ -18,7 +18,7 @@ public class OptionScript : MonoBehaviour
 
         for (int i = 0; i < resolutions.Length; i++)
         {
-            string res = resolutions[i].width + " x " + resolutions[i].width;
+            string res = resolutions[i].width + " x " + resolutions[i].height;
             options.Add(res);
 
             if (Screen.currentResolution.width == resolutions[i].width 
@@ -35,11 +35,21 @@ public class OptionScript : MonoBehaviour
         qualityDropDown.ClearOptions();
         qualityDropDown.AddOptions(QualitySettings.names.ToList());
         qualityDropDown.value = QualitySettings.GetQualityLevel();
+
+        //event change listen
+        qualityDropDown.onValueChanged.AddListener(SetQuality);
+        resolutionDropDown.onValueChanged.AddListener(SetResolution);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SetResolution(int resolutionId)
     {
-        
+        Resolution res = resolutions[resolutionId];
+
+        Screen.SetResolution(res.width, res.height, Screen.fullScreen);
+    }
+
+    public void SetQuality(int qualityId)
+    {
+        QualitySettings.SetQualityLevel(qualityId);
     }
 }
