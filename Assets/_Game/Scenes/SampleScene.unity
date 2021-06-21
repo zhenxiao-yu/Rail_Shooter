@@ -11490,7 +11490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.16470589, g: 0.91372555, b: 0.9921569, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -12651,6 +12651,8 @@ MonoBehaviour:
     accuracy: {fileID: 87646361}
     endScreenPanel: {fileID: 424831894}
     rankText: {fileID: 760362545}
+    backButton: {fileID: 2037766080}
+    titleSceneName: TitleScene
   volSetting:
     panel: {fileID: 1243224009}
     sfxSlider: {fileID: 1243224008}
@@ -32108,6 +32110,18 @@ MonoBehaviour:
     type: 3}
   hitSfx:
     id: 4
+--- !u!114 &2037766080 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 420609548962352830, guid: f3ef0c0a4ee38cc48bbda4d6e11e6fdb,
+    type: 3}
+  m_PrefabInstance: {fileID: 424831892}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &2086360672
 Mesh:
   m_ObjectHideFlags: 0

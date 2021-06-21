@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class UIManager
@@ -25,6 +26,8 @@ public class UIManager
     [SerializeField] TextMeshProUGUI accuracy;
     [SerializeField] GameObject endScreenPanel;
     [SerializeField] TextMeshProUGUI rankText;
+    [SerializeField] Button backButton;
+    [SerializeField] string titleSceneName;
 
 
 
@@ -40,6 +43,8 @@ public class UIManager
         hostageKilledText.gameObject.SetActive(false);
         PlayerScript.OnWeaponChanged += UpdateWeapon;
         TimerObject.OnTimerChanged += UpdateTimer;
+
+        backButton.onClick.AddListener(GoToTitleScene);
     }
 
     private void UpdateTimer(int currentTimer)
@@ -144,5 +149,10 @@ public class UIManager
     {
         if (crossHair != null)
             crossHair.position = mousePosition;
+    }
+
+    void GoToTitleScene()
+    {
+        SceneManager.LoadScene(titleSceneName);
     }
 }

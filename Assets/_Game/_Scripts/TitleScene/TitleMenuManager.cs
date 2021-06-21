@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+
 using UnityEngine.SceneManagement;
 
 public class TitleMenuManager : MonoBehaviour
@@ -32,6 +33,7 @@ public class TitleMenuManager : MonoBehaviour
 
   void OpenOptionPanel()
   {
+    optionCloseButton.Select();
     optionPanel.SetActive(true);
   }
 

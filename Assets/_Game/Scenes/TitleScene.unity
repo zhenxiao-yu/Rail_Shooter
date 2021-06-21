@@ -981,8 +981,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3428857178941076299, guid: 896713b55f4f5774aaf84eb0e4d77742,
         type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428857178941076299, guid: 896713b55f4f5774aaf84eb0e4d77742,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428857178941076299, guid: 896713b55f4f5774aaf84eb0e4d77742,
+        type: 3}
       propertyPath: m_textAlignment
       value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428857178941076299, guid: 896713b55f4f5774aaf84eb0e4d77742,
+        type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
       objectReference: {fileID: 0}
     - target: {fileID: 3428857178941076299, guid: 896713b55f4f5774aaf84eb0e4d77742,
         type: 3}
