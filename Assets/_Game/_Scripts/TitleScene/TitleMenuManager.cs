@@ -15,6 +15,7 @@ public class TitleMenuManager : MonoBehaviour
   
   void Start()
   {
+    Cursor.visible = true;
     optionPanel.SetActive(false);
     startButton.Select();
 
