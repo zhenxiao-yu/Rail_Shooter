@@ -982,12 +982,12 @@ PrefabInstance:
     - target: {fileID: 3428857178941076299, guid: 896713b55f4f5774aaf84eb0e4d77742,
         type: 3}
       propertyPath: m_text
-      value: 
+      value: E.C.H.O
       objectReference: {fileID: 0}
     - target: {fileID: 3428857178941076299, guid: 896713b55f4f5774aaf84eb0e4d77742,
         type: 3}
       propertyPath: m_fontSize
-      value: 36
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 3428857178941076299, guid: 896713b55f4f5774aaf84eb0e4d77742,
         type: 3}
