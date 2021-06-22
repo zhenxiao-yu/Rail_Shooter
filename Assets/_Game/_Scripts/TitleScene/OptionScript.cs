@@ -7,6 +7,8 @@ public class OptionScript : MonoBehaviour
 {
     [SerializeField] TMPro.TMP_Dropdown resolutionDropDown, qualityDropDown;
 
+    [SerializeField] AudioGetter clickSfx;
+
     private Resolution[] resolutions;
     void Start()
     {
