@@ -123,6 +123,55 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &13927734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 13927736}
+  - component: {fileID: 13927735}
+  m_Layer: 0
+  m_Name: AudioPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &13927735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13927734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf446d8e59b7e8d4fafb9d45cd64f44e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioLib: {fileID: 11400000, guid: 12662298765caf04ab758138655f22c3, type: 2}
+  audioSourcesNumber: 1
+  sfxGroup: {fileID: -7955954190319549307, guid: 786e9ae517b71b04896f2ba803aef1e6,
+    type: 2}
+  bgmGroup: {fileID: -8969327979528875821, guid: 786e9ae517b71b04896f2ba803aef1e6,
+    type: 2}
+--- !u!4 &13927736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13927734}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 814.7502, y: 426.5107, z: 110.06449}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &120497683 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3428857177137632001, guid: 896713b55f4f5774aaf84eb0e4d77742,
@@ -701,6 +750,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resolutionDropDown: {fileID: 241053984}
   qualityDropDown: {fileID: 307222573}
+  clickSfx:
+    id: 11
 --- !u!114 &674621183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -719,6 +770,8 @@ MonoBehaviour:
   optionButton: {fileID: 120497683}
   optionCloseButton: {fileID: 327310843}
   quitButton: {fileID: 1633411033}
+  clickSfx:
+    id: 11
 --- !u!1 &762438701
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,6 +12,7 @@ public class AnimatorMove : MonoBehaviour
     }
     private void OnAnimatorMove()
     {
+        if (anim ==  null)
         // Make Enemy Move Along With It's Animator Component
         transform.parent.position += anim.deltaPosition;
     }
