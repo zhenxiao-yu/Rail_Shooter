@@ -27,12 +27,14 @@ public class TitleMenuManager : MonoBehaviour
   {
     if (optionPanel.activeInHierarchy)
         return;
-    
+    AudioPlayer.Instance.PlaySFX(clickSfx);
+
     SceneManager.LoadScene(gamePlayScene);
   }
 
   void OpenOptionPanel()
   {
+    AudioPlayer.Instance.PlaySFX(clickSfx);
     optionCloseButton.Select();
     optionPanel.SetActive(true);
   }
