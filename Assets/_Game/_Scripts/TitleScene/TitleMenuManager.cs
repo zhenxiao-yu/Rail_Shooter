@@ -11,6 +11,7 @@ public class TitleMenuManager : MonoBehaviour
   [SerializeField] string gamePlayScene;
 
   [SerializeField] Button startButton, optionButton, optionCloseButton, quitButton;
+  [SerializeField] AudioGetter clickSfx;
   
   void Start()
   {
@@ -41,12 +42,14 @@ public class TitleMenuManager : MonoBehaviour
 
   void CloseOptionPanel()
   {
+    AudioPlayer.Instance.PlaySFX(clickSfx);
     optionPanel.SetActive(false);
     optionButton.Select();
   }
 
   void QuitGame()
   {
+    AudioPlayer.Instance.PlaySFX(clickSfx);
     Application.Quit();
   }
 
