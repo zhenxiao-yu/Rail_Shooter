@@ -68,3 +68,8 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 69cc874bca887074b80ef3156eeaf553, type: 3}
     minPitch: 0.9
     maxPitch: 1.1
+  - audioName: UI Button
+    audioClips:
+    - {fileID: 8300000, guid: 000e2f6f506d62d42ad888e5845353e9, type: 3}
+    minPitch: 0.9
+    maxPitch: 1.1
